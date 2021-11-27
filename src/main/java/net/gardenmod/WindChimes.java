@@ -13,8 +13,8 @@ public class WindChimes extends Item {
 	public WindChimes(Settings item$Settings_1) { super(item$Settings_1); }
 
 	@Override
-	public TypedActionResult<ItemStack> use(World world, PlayerEntity PlayerEntity, Hand Hand) {
-		PlayerEntity.playSound(SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, 10.0F, 10.0F);
-		return new TypedActionResult<ItemStack>(ActionResult.SUCCESS, PlayerEntity.getStackInHand(Hand));
+	public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand) {
+		playerEntity.playSound(SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, 10.0F, 10.0F);
+		return new TypedActionResult<ItemStack>(ActionResult.SUCCESS, playerEntity.getStackInHand(hand));
 	}
 }
