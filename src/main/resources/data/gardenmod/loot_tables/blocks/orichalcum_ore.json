@@ -4,9 +4,6 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "gardenmod:orichalcum_ore"
-		}],
-		"conditions": [{
-			"condition": "minecraft:survives_explosion"
 		}]
 	}]
 }

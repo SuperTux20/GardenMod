@@ -2,6 +2,12 @@
 	"replace": false,
 	"values": [
 		"gardenmod:mythril_ore",
-		"gardenmod:orichalcum_ore"
+		"gardenmod:orichalcum_ore",
+		"gardenmod:raw_aquamarine_block",
+		"gardenmod:raw_emerald_block",
+		"gardenmod:raw_ruby_block",
+		"gardenmod:raw_sapphire_block",
+		"gardenmod:raw_topaz_block",
+		"gardenmod:raw_tourmaline_block"
 	]
 }

@@ -4,9 +4,6 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "gardenmod:mythril_ore"
-		}],
-		"conditions": [{
-			"condition": "minecraft:survives_explosion"
 		}]
 	}]
 }
