@@ -2,7 +2,7 @@
 	"pools": [{
 		"rolls": 1,
 		"entries": [{
-			"type": "minecraft:item",
+			"type": "item",
 			"name": "gardenmod:raw_aquamarine_block"
 		}]
 	}]
