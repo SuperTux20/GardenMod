@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "gardenmod:orichalcum_ore"
+	},
+	"result": "gardenmod:orichalcum_ingot",
+	"experience": 2
+}
