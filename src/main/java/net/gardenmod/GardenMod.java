@@ -24,6 +24,10 @@ public class GardenMod implements ModInitializer {
 	public static final Block	RAW_SAPPHIRE_BLOCK	= new RawSapphireBlock();
 	public static final Block	RAW_TOPAZ_BLOCK	= new RawTopazBlock();
 	public static final Block	RAW_TOURMALINE_BLOCK	= new RawTourmalineBlock();
+	public static final Block	CHOCOLATE_GRAVEL	= new ChocolateGravel();
+	public static final Block	PEPPERMINT_BLOCK	= new PeppermintBlock();
+	public static final Block	CANDY_CANE_BLOCK	= new CandyCaneBlock();
+	public static final Block	CANDY_CANE_LOG	= new CandyCaneLog();
 
 	private void newItem(String itemName, Item item) { Registry.register(Registry.ITEM, new Identifier(MOD_NAME, itemName), item); }
 
@@ -45,5 +49,9 @@ public class GardenMod implements ModInitializer {
 		newBlock("raw_sapphire_block",	RAW_SAPPHIRE_BLOCK,	ItemGroup.BUILDING_BLOCKS);
 		newBlock("raw_topaz_block",	RAW_TOPAZ_BLOCK,	ItemGroup.BUILDING_BLOCKS);
 		newBlock("raw_tourmaline_block",	RAW_TOURMALINE_BLOCK,	ItemGroup.BUILDING_BLOCKS);
+		newBlock("chocolate_gravel",	CHOCOLATE_GRAVEL,	ItemGroup.BUILDING_BLOCKS);
+		newBlock("peppermint_block",	PEPPERMINT_BLOCK,	ItemGroup.BUILDING_BLOCKS);
+		newBlock("candy_cane_block",	CANDY_CANE_BLOCK,	ItemGroup.BUILDING_BLOCKS);
+		newBlock("candy_cane_log",	CANDY_CANE_LOG,	ItemGroup.BUILDING_BLOCKS);
 	}
 }

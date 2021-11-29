@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
+		"gardenmod:peppermint_block",
 		"gardenmod:mythril_ore",
 		"gardenmod:orichalcum_ore",
 		"gardenmod:raw_aquamarine_block",
