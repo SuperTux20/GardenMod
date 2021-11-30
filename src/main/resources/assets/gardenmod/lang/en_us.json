@@ -2,11 +2,15 @@
 	"item.minecraft.diamond": "Diamond Shard",
 	"item.minecraft.emerald": "Emerald Shard",
 	"item.minecraft.quartz": "Quartz Shard",
+
 	"block.minecraft.amethyst_block": "Raw Amethyst Block",
+
 	"item.gardenmod.cinnamon_roll": "Cinnamon Roll",
 	"item.gardenmod.wind_chimes": "Wind Chimes",
+
 	"item.gardenmod.mythril_ingot": "Mythril Ingot",
 	"item.gardenmod.orichalcum_ingot": "Orichalcum Ingot",
+
 	"item.gardenmod.amethyst": "Amethyst",
 	"item.gardenmod.aquamarine": "Aquamarine",
 	"item.gardenmod.diamond": "Diamond",
@@ -17,19 +21,23 @@
 	"item.gardenmod.sapphire": "Sapphire",
 	"item.gardenmod.topaz": "Topaz",
 	"item.gardenmod.tourmaline": "Tourmaline",
+
 	"item.gardenmod.aquamarine_shard": "Aquamarine Shard",
 	"item.gardenmod.onyx_shard": "Onyx Shard",
 	"item.gardenmod.ruby_shard": "Ruby Shard",
 	"item.gardenmod.sapphire_shard": "Sapphire Shard",
 	"item.gardenmod.topaz_shard": "Topaz Shard",
 	"item.gardenmod.tourmaline_shard": "Tourmaline Shard",
+
+	"block.gardenmod.peppermint_block": "Peppermint Block",
 	"block.gardenmod.candy_cane_block": "Candy Cane Block",
 	"block.gardenmod.candy_cane_log": "Candy Cane Log",
 	"block.gardenmod.tentacle_block": "Tentacle Block",
 	"block.gardenmod.chocolate_gravel": "Chocolate Gravel",
+
 	"block.gardenmod.mythril_ore": "Mythril Ore",
 	"block.gardenmod.orichalcum_ore": "Orichalcum Ore",
-	"block.gardenmod.peppermint_block": "Peppermint Block",
+
 	"block.gardenmod.raw_aquamarine_block": "Raw Aquamarine Block",
 	"block.gardenmod.raw_diamond_block": "Raw Diamond Block",
 	"block.gardenmod.raw_emerald_block": "Raw Emerald Block",
@@ -39,6 +47,7 @@
 	"block.gardenmod.raw_sapphire_block": "Raw Sapphire Block",
 	"block.gardenmod.raw_topaz_block": "Raw Topaz Block",
 	"block.gardenmod.raw_tourmaline_block": "Raw Tourmaline Block",
+
 	"block.gardenmod.amethyst_block": "Block of Amethyst",
 	"block.gardenmod.aquamarine_block": "Block of Aquamarine",
 	"block.gardenmod.onyx_block": "Block of Onyx",
