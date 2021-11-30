@@ -5,10 +5,20 @@
 		"gardenmod:mythril_ore",
 		"gardenmod:orichalcum_ore",
 		"gardenmod:raw_aquamarine_block",
+		"gardenmod:raw_diamond_block",
 		"gardenmod:raw_emerald_block",
+		"gardenmod:raw_onyx_block",
+		"gardenmod:raw_quartz_block",
 		"gardenmod:raw_ruby_block",
 		"gardenmod:raw_sapphire_block",
 		"gardenmod:raw_topaz_block",
-		"gardenmod:raw_tourmaline_block"
+		"gardenmod:raw_tourmaline_block",
+		"gardenmod:amethyst_block",
+		"gardenmod:aquamarine_block",
+		"gardenmod:onyx_block",
+		"gardenmod:ruby_block",
+		"gardenmod:sapphire_block",
+		"gardenmod:topaz_block",
+		"gardenmod:tourmaline_block"
 	]
 }

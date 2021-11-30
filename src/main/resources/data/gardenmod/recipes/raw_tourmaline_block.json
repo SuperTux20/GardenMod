@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{
+			"item": "gardenmod:tourmaline_shard"
+		},
+		{
+			"item": "gardenmod:tourmaline_shard"
+		},
+		{
+			"item": "gardenmod:tourmaline_shard"
+		},
+		{
+			"item": "gardenmod:tourmaline_shard"
+		},
+		{
+			"item": "gardenmod:tourmaline_shard"
+		},
+		{
+			"item": "gardenmod:tourmaline_shard"
+		},
+		{
+			"item": "gardenmod:tourmaline_shard"
+		},
+		{
+			"item": "gardenmod:tourmaline_shard"
+		},
+		{
+			"item": "gardenmod:tourmaline_shard"
+		}
+	],
+	"result": {
+		"item": "gardenmod:raw_tourmaline_block",
+		"count": 1
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{
+			"item": "gardenmod:sapphire"
+		},
+		{
+			"item": "gardenmod:sapphire"
+		},
+		{
+			"item": "gardenmod:sapphire"
+		},
+		{
+			"item": "gardenmod:sapphire"
+		},
+		{
+			"item": "gardenmod:sapphire"
+		},
+		{
+			"item": "gardenmod:sapphire"
+		},
+		{
+			"item": "gardenmod:sapphire"
+		},
+		{
+			"item": "gardenmod:sapphire"
+		},
+		{
+			"item": "gardenmod:sapphire"
+		}
+	],
+	"result": {
+		"item": "gardenmod:sapphire_block",
+		"count": 1
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{
+			"item": "gardenmod:topaz"
+		},
+		{
+			"item": "gardenmod:topaz"
+		},
+		{
+			"item": "gardenmod:topaz"
+		},
+		{
+			"item": "gardenmod:topaz"
+		},
+		{
+			"item": "gardenmod:topaz"
+		},
+		{
+			"item": "gardenmod:topaz"
+		},
+		{
+			"item": "gardenmod:topaz"
+		},
+		{
+			"item": "gardenmod:topaz"
+		},
+		{
+			"item": "gardenmod:topaz"
+		}
+	],
+	"result": {
+		"item": "gardenmod:topaz_block",
+		"count": 1
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{
+			"item": "gardenmod:tourmaline"
+		},
+		{
+			"item": "gardenmod:tourmaline"
+		},
+		{
+			"item": "gardenmod:tourmaline"
+		},
+		{
+			"item": "gardenmod:tourmaline"
+		},
+		{
+			"item": "gardenmod:tourmaline"
+		},
+		{
+			"item": "gardenmod:tourmaline"
+		},
+		{
+			"item": "gardenmod:tourmaline"
+		},
+		{
+			"item": "gardenmod:tourmaline"
+		},
+		{
+			"item": "gardenmod:tourmaline"
+		}
+	],
+	"result": {
+		"item": "gardenmod:tourmaline_block",
+		"count": 1
+	}
+}
