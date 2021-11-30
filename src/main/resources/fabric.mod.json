@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "gardenmod",
-	"version": "${version}",
+	"version": "1.0.0",
 
 	"name": "Jewel's Garden Mod",
 	"description": "A few extra blocks and items for maps",
@@ -23,7 +23,7 @@
 	"depends": {
 		"fabricloader": ">=0.11.3",
 		"fabric": "*",
-		"minecraft": "1.17.x",
+		"minecraft": "1.18.x",
 		"java": ">=16"
 	},
 	"suggests": {
