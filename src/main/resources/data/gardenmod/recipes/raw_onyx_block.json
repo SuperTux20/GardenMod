@@ -1,33 +1,11 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"ingredients": [{
-			"item": "gardenmod:onyx_shard"
-		},
-		{
-			"item": "gardenmod:onyx_shard"
-		},
-		{
-			"item": "gardenmod:onyx_shard"
-		},
-		{
-			"item": "gardenmod:onyx_shard"
-		},
-		{
-			"item": "gardenmod:onyx_shard"
-		},
-		{
-			"item": "gardenmod:onyx_shard"
-		},
-		{
-			"item": "gardenmod:onyx_shard"
-		},
-		{
-			"item": "gardenmod:onyx_shard"
-		},
-		{
-			"item": "gardenmod:onyx_shard"
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["###", "###", "###"],
+	"key": {
+		"#": {
+			"item": "gardenmod:raw_onyx"
 		}
-	],
+	},
 	"result": {
 		"item": "gardenmod:raw_onyx_block",
 		"count": 1

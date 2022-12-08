@@ -1,33 +1,15 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"ingredients": [{
-			"item": "gardenmod:onyx"
-		},
-		{
-			"item": "gardenmod:onyx"
-		},
-		{
-			"item": "gardenmod:onyx"
-		},
-		{
-			"item": "gardenmod:onyx"
-		},
-		{
-			"item": "gardenmod:onyx"
-		},
-		{
-			"item": "gardenmod:onyx"
-		},
-		{
-			"item": "gardenmod:onyx"
-		},
-		{
-			"item": "gardenmod:onyx"
-		},
-		{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
 			"item": "gardenmod:onyx"
 		}
-	],
+	},
 	"result": {
 		"item": "gardenmod:onyx_block",
 		"count": 1

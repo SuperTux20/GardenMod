@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "gardenmod:orichalcum_ingot"
+		}
+	},
+	"result": {
+		"item": "gardenmod:orichalcum_block",
+		"count": 1
+	}
+}

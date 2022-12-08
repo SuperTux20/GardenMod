@@ -1,6 +1,6 @@
 # Jewel's Garden Mod
 
-Just a simple mod to add some creative mode blocks.
+Features I've wanted to see for a while, plus random things I thought of.
 
 ## Notes
 

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "gardenmod:quartz"
+		}
+	},
+	"result": {
+		"item": "minecraft:quartz_block",
+		"count": 1
+	}
+}

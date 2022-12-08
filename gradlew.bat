@@ -84,6 +84,7 @@ if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
 exit /b 1
 
 :mainEnd
+copy build\libs\gardenmod-1.0.0.jar run\mods
 if "%OS%"=="Windows_NT" endlocal
 
 :omega

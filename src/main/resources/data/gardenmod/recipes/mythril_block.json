@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "gardenmod:mythril_ingot"
+		}
+	},
+	"result": {
+		"item": "gardenmod:mythril_block",
+		"count": 1
+	}
+}

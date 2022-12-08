@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{
+		"item": "gardenmod:raw_tourmaline_block"
+	}],
+	"result": {
+		"item": "gardenmod:raw_tourmaline",
+		"count": 9
+	}
+}

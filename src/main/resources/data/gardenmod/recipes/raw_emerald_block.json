@@ -1,33 +1,11 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"ingredients": [{
-			"item": "minecraft:emerald"
-		},
-		{
-			"item": "minecraft:emerald"
-		},
-		{
-			"item": "minecraft:emerald"
-		},
-		{
-			"item": "minecraft:emerald"
-		},
-		{
-			"item": "minecraft:emerald"
-		},
-		{
-			"item": "minecraft:emerald"
-		},
-		{
-			"item": "minecraft:emerald"
-		},
-		{
-			"item": "minecraft:emerald"
-		},
-		{
-			"item": "minecraft:emerald"
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["###", "###", "###"],
+	"key": {
+		"#": {
+			"item": "gardenmod:raw_emerald"
 		}
-	],
+	},
 	"result": {
 		"item": "gardenmod:raw_emerald_block",
 		"count": 1

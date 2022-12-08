@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "gardenmod:raw_mythril"
+	},
+	"result": "gardenmod:mythril_ingot",
+	"experience": 1
+}

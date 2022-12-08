@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "gardenmod:raw_onyx"
+	},
+	"result": "gardenmod:onyx",
+	"experience": 1
+}

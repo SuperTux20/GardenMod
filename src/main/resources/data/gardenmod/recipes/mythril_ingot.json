@@ -1,8 +1,0 @@
-{
-	"type": "minecraft:smelting",
-	"ingredient": {
-		"item": "gardenmod:mythril_ore"
-	},
-	"result": "gardenmod:mythril_ingot",
-	"experience": 2
-}

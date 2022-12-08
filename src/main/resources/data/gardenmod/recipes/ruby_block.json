@@ -1,33 +1,15 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"ingredients": [{
-			"item": "gardenmod:ruby"
-		},
-		{
-			"item": "gardenmod:ruby"
-		},
-		{
-			"item": "gardenmod:ruby"
-		},
-		{
-			"item": "gardenmod:ruby"
-		},
-		{
-			"item": "gardenmod:ruby"
-		},
-		{
-			"item": "gardenmod:ruby"
-		},
-		{
-			"item": "gardenmod:ruby"
-		},
-		{
-			"item": "gardenmod:ruby"
-		},
-		{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
 			"item": "gardenmod:ruby"
 		}
-	],
+	},
 	"result": {
 		"item": "gardenmod:ruby_block",
 		"count": 1

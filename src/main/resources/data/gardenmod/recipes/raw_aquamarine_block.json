@@ -1,33 +1,11 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"ingredients": [{
-			"item": "gardenmod:aquamarine_shard"
-		},
-		{
-			"item": "gardenmod:aquamarine_shard"
-		},
-		{
-			"item": "gardenmod:aquamarine_shard"
-		},
-		{
-			"item": "gardenmod:aquamarine_shard"
-		},
-		{
-			"item": "gardenmod:aquamarine_shard"
-		},
-		{
-			"item": "gardenmod:aquamarine_shard"
-		},
-		{
-			"item": "gardenmod:aquamarine_shard"
-		},
-		{
-			"item": "gardenmod:aquamarine_shard"
-		},
-		{
-			"item": "gardenmod:aquamarine_shard"
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["###", "###", "###"],
+	"key": {
+		"#": {
+			"item": "gardenmod:raw_aquamarine"
 		}
-	],
+	},
 	"result": {
 		"item": "gardenmod:raw_aquamarine_block",
 		"count": 1

@@ -4,19 +4,19 @@
 	"version": "1.0.0",
 
 	"name": "Jewel's Garden Mod",
-	"description": "A few extra blocks and items for maps",
-	"authors": ["Tux Penguin"],
+	"description": "Features I've wanted to see for a while, plus random things I thought of.",
+	"authors": ["SuperTux20"],
 	"contact": {
 		"homepage": "https://supertux20.github.io",
 		"sources": "https://github.com/SuperTux20/GardenMod"
 	},
 
-	"license": "CC0-1.0",
+	"license": "GPL3",
 	"icon": "assets/gardenmod/icon.png",
 
 	"environment": "*",
 	"entrypoints": {
-		"main": ["net.gardenmod.GardenMod"]
+		"main": ["com.supertux20.gardenmod.GardenMod"]
 	},
 	"mixins": [],
 
