@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gardenmod:item/wind_chimes"
+		"layer0": "gardenmod:item/amethyst_chimes"
 	}
 }

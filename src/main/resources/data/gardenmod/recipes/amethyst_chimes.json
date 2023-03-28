@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" $ ",
+		"%%%"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:string"
+		},
+		"$": {
+			"item": "minecraft:copper_ingot"
+		},
+		"%": {
+			"item": "minecraft:amethyst_shard"
+		}
+	},
+	"result": {
+		"item": "gardenmod:amethyst_chimes",
+		"count": 1
+	}
+}

@@ -24,7 +24,7 @@ import com.supertux20.gardenmod.items.Topaz;
 import com.supertux20.gardenmod.items.RawTopaz;
 import com.supertux20.gardenmod.items.Tourmaline;
 import com.supertux20.gardenmod.items.RawTourmaline;
-import com.supertux20.gardenmod.items.WindChimes;
+import com.supertux20.gardenmod.items.AmethystChimes;
 
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -35,7 +35,7 @@ public class GardenItems {
 		Registry.register(Registry.ITEM, new Identifier(GardenMod.ID, itemName), item);
 	}
 
-	public static final Item WIND_CHIMES = new WindChimes();
+	public static final Item AMETHYST_CHIMES = new AmethystChimes();
 	public static final Item CINNAMON_ROLL = new CinnamonRoll();
 
 	public static final Item MYTHRIL_INGOT = new MythrilIngot();
@@ -67,7 +67,7 @@ public class GardenItems {
 
 	// registers the items so they now exist in the registry
 	public static void register() {
-		newItem("wind_chimes", WIND_CHIMES);
+		newItem("amethyst_chimes", AMETHYST_CHIMES);
 		newItem("cinnamon_roll", CINNAMON_ROLL);
 
 		newItem("mythril_nugget", MYTHRIL_NUGGET);
