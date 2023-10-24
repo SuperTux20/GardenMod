@@ -1,8 +1,9 @@
 package com.supertux20.gardenmod.items;
 
+import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
+
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
@@ -12,7 +13,7 @@ import net.minecraft.world.World;
 
 public class AmethystChimes extends Item {
 	public AmethystChimes() {
-		super(new Item.Settings().group(ItemGroup.MISC));
+		super(new QuiltItemSettings());
 	}
 
 	@Override

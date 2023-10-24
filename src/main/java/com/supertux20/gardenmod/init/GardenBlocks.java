@@ -1,5 +1,7 @@
 package com.supertux20.gardenmod.init;
 
+import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
+
 import com.supertux20.gardenmod.GardenMod;
 import com.supertux20.gardenmod.blocks.AmberBlock;
 import com.supertux20.gardenmod.blocks.AmethystBlock;
@@ -43,18 +45,21 @@ import com.supertux20.gardenmod.blocks.TigereyeBlock;
 import com.supertux20.gardenmod.blocks.TopazBlock;
 import com.supertux20.gardenmod.blocks.TourmalineBlock;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 public class GardenBlocks {
-	public static void newBlock(String blockName, Block block, ItemGroup group) {
-		Registry.register(Registry.ITEM, new Identifier(GardenMod.ID, blockName),
-				new BlockItem(block, new Item.Settings().group(group)));
-		Registry.register(Registry.BLOCK, new Identifier(GardenMod.ID, blockName), block);
+	public static void newBlock(String blockName, Block block, RegistryKey<ItemGroup> group) {
+		Registry.register(Registries.ITEM, new Identifier(GardenMod.ID, blockName), new BlockItem(block, new QuiltItemSettings()));
+		Registry.register(Registries.BLOCK, new Identifier(GardenMod.ID, blockName), block);
+		ItemGroupEvents.modifyEntriesEvent(group).register(entries -> {entries.addItem(block.asItem());});
 	}
 
 	public static final Block MYTHRIL_ORE = new MythrilOre();
@@ -107,52 +112,52 @@ public class GardenBlocks {
 
 	// registers the blocks so they now exist in the registry
 	public static void register() {
-		newBlock("mythril_ore", MYTHRIL_ORE, ItemGroup.BUILDING_BLOCKS);
-		newBlock("deepslate_mythril_ore", DEEPSLATE_MYTHRIL_ORE, ItemGroup.BUILDING_BLOCKS);
+		newBlock("mythril_ore", MYTHRIL_ORE, ItemGroups.BUILDING_BLOCKS);
+		newBlock("deepslate_mythril_ore", DEEPSLATE_MYTHRIL_ORE, ItemGroups.BUILDING_BLOCKS);
 
-		newBlock("orichalcum_ore", ORICHALCUM_ORE, ItemGroup.BUILDING_BLOCKS);
-		newBlock("deepslate_orichalcum_ore", DEEPSLATE_ORICHALCUM_ORE, ItemGroup.BUILDING_BLOCKS);
+		newBlock("orichalcum_ore", ORICHALCUM_ORE, ItemGroups.BUILDING_BLOCKS);
+		newBlock("deepslate_orichalcum_ore", DEEPSLATE_ORICHALCUM_ORE, ItemGroups.BUILDING_BLOCKS);
 
-		newBlock("raw_mythril_block", RAW_MYTHRIL_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("mythril_block", MYTHRIL_BLOCK, ItemGroup.BUILDING_BLOCKS);
+		newBlock("raw_mythril_block", RAW_MYTHRIL_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("mythril_block", MYTHRIL_BLOCK, ItemGroups.BUILDING_BLOCKS);
 
-		newBlock("raw_orichalcum_block", RAW_ORICHALCUM_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("orichalcum_block", ORICHALCUM_BLOCK, ItemGroup.BUILDING_BLOCKS);
+		newBlock("raw_orichalcum_block", RAW_ORICHALCUM_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("orichalcum_block", ORICHALCUM_BLOCK, ItemGroups.BUILDING_BLOCKS);
 
-		newBlock("raw_amber_block", RAW_AMBER_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_aquamarine_block", RAW_AQUAMARINE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_diamond_block", RAW_DIAMOND_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_emerald_block", RAW_EMERALD_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_malachite_block", RAW_MALACHITE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_moonstone_block", RAW_MOONSTONE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_onyx_block", RAW_ONYX_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_quartz_block", RAW_QUARTZ_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_rosequartz_block", RAW_ROSEQUARTZ_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_ruby_block", RAW_RUBY_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_sapphire_block", RAW_SAPPHIRE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_smokyquartz_block", RAW_SMOKYQUARTZ_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_tigereye_block", RAW_TIGEREYE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_topaz_block", RAW_TOPAZ_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("raw_tourmaline_block", RAW_TOURMALINE_BLOCK, ItemGroup.BUILDING_BLOCKS);
+		newBlock("raw_amber_block", RAW_AMBER_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_aquamarine_block", RAW_AQUAMARINE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_diamond_block", RAW_DIAMOND_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_emerald_block", RAW_EMERALD_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_malachite_block", RAW_MALACHITE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_moonstone_block", RAW_MOONSTONE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_onyx_block", RAW_ONYX_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_quartz_block", RAW_QUARTZ_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_rosequartz_block", RAW_ROSEQUARTZ_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_ruby_block", RAW_RUBY_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_sapphire_block", RAW_SAPPHIRE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_smokyquartz_block", RAW_SMOKYQUARTZ_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_tigereye_block", RAW_TIGEREYE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_topaz_block", RAW_TOPAZ_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("raw_tourmaline_block", RAW_TOURMALINE_BLOCK, ItemGroups.BUILDING_BLOCKS);
 
-		newBlock("amber_block", AMBER_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("amethyst_block", AMETHYST_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("aquamarine_block", AQUAMARINE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("malachite_block", MALACHITE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("moonstone_block", MOONSTONE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("onyx_block", ONYX_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("rosequartz_block", ROSEQUARTZ_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("ruby_block", RUBY_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("sapphire_block", SAPPHIRE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("smokyquartz_block", SMOKYQUARTZ_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("tigereye_block", TIGEREYE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("topaz_block", TOPAZ_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("tourmaline_block", TOURMALINE_BLOCK, ItemGroup.BUILDING_BLOCKS);
+		newBlock("amber_block", AMBER_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("amethyst_block", AMETHYST_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("aquamarine_block", AQUAMARINE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("malachite_block", MALACHITE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("moonstone_block", MOONSTONE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("onyx_block", ONYX_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("rosequartz_block", ROSEQUARTZ_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("ruby_block", RUBY_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("sapphire_block", SAPPHIRE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("smokyquartz_block", SMOKYQUARTZ_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("tigereye_block", TIGEREYE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("topaz_block", TOPAZ_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("tourmaline_block", TOURMALINE_BLOCK, ItemGroups.BUILDING_BLOCKS);
 
-		newBlock("tentacle_block", TENTACLE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("chocolate_gravel", CHOCOLATE_GRAVEL, ItemGroup.BUILDING_BLOCKS);
-		newBlock("peppermint_block", PEPPERMINT_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("candy_cane_block", CANDY_CANE_BLOCK, ItemGroup.BUILDING_BLOCKS);
-		newBlock("candy_cane_log", CANDY_CANE_LOG, ItemGroup.BUILDING_BLOCKS);
+		newBlock("tentacle_block", TENTACLE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("chocolate_gravel", CHOCOLATE_GRAVEL, ItemGroups.BUILDING_BLOCKS);
+		newBlock("peppermint_block", PEPPERMINT_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("candy_cane_block", CANDY_CANE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+		newBlock("candy_cane_log", CANDY_CANE_LOG, ItemGroups.BUILDING_BLOCKS);
 	}
 }

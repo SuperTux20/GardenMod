@@ -1,12 +1,11 @@
 package com.supertux20.gardenmod.blocks;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import org.quiltmc.qsl.block.extensions.api.QuiltBlockSettings;
 import net.minecraft.block.Block;
-import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 
 public class OrichalcumOre extends Block {
 	public OrichalcumOre() {
-		super(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE).strength(3F, 3F).requiresTool());
+		super(QuiltBlockSettings.create().sounds(BlockSoundGroup.STONE).strength(3F, 3F).requiresTool());
 	}
 }
