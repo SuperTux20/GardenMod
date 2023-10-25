@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "minecraft:lapis_lazuli"
+	},
+	"result": "gardenmod:lapis_lazuli",
+	"experience": 1
+}
