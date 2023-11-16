@@ -73,14 +73,12 @@ public class GardenItems {
 	public static final Item AMETHYST_CHIMES = new AmethystChimes();
 	public static final Item CINNAMON_ROLL = new CinnamonRoll();
 
-	public static final Item MYTHRIL_INGOT = new MythrilIngot();
-	public static final Item ORICHALCUM_INGOT = new OrichalcumIngot();
-
-	public static final Item MYTHRIL_NUGGET = new MythrilNugget();
-	public static final Item ORICHALCUM_NUGGET = new OrichalcumNugget();
-
 	public static final Item RAW_MYTHRIL = new RawMythril();
+	public static final Item MYTHRIL_NUGGET = new MythrilNugget();
+	public static final Item MYTHRIL_INGOT = new MythrilIngot();
 	public static final Item RAW_ORICHALCUM = new RawOrichalcum();
+	public static final Item ORICHALCUM_NUGGET = new OrichalcumNugget();
+	public static final Item ORICHALCUM_INGOT = new OrichalcumIngot();
 
 	public static final Item AMBER = new Amber();
 	public static final Item AMETHYST = new Amethyst();
@@ -133,23 +131,23 @@ public class GardenItems {
 		newItem("quartz",		QUARTZ,			ItemGroups.INGREDIENTS, new Object[] {false, ONYX});
 		newItem("rose_quartz",	ROSE_QUARTZ,	ItemGroups.INGREDIENTS, new Object[] {false, QUARTZ});
 		newItem("ruby",			RUBY,			ItemGroups.INGREDIENTS, new Object[] {false, ROSE_QUARTZ});
-		newItem("smoky_quartz",	SMOKY_QUARTZ,	ItemGroups.INGREDIENTS, new Object[] {false, SMOKY_QUARTZ});
-		newItem("tiger_eye",	TIGER_EYE,		ItemGroups.INGREDIENTS, new Object[] {false, RUBY});
+		newItem("smoky_quartz",	SMOKY_QUARTZ,	ItemGroups.INGREDIENTS, new Object[] {false, RUBY});
+		newItem("tiger_eye",	TIGER_EYE,		ItemGroups.INGREDIENTS, new Object[] {false, SMOKY_QUARTZ});
 		newItem("topaz",		TOPAZ,			ItemGroups.INGREDIENTS, new Object[] {false, TIGER_EYE});
 		newItem("tourmaline",	TOURMALINE,		ItemGroups.INGREDIENTS, new Object[] {false, TOPAZ});
 
-		newItem("raw_amber", RAW_AMBER,					ItemGroups.INGREDIENTS, new Object[] {true, Items.AMETHYST_SHARD});
-		newItem("raw_aquamarine", RAW_AQUAMARINE,		ItemGroups.INGREDIENTS, new Object[] {false, Items.AMETHYST_SHARD});
-		newItem("raw_diamond", RAW_DIAMOND,				ItemGroups.INGREDIENTS, new Object[] {false, RAW_AQUAMARINE});
-		newItem("raw_emerald", RAW_EMERALD,				ItemGroups.INGREDIENTS, new Object[] {false, RAW_DIAMOND});
-		newItem("raw_moonstone", RAW_MOONSTONE,			ItemGroups.INGREDIENTS, new Object[] {false, Items.LAPIS_LAZULI});
-		newItem("raw_olivine", RAW_OLIVINE,				ItemGroups.INGREDIENTS, new Object[] {false, RAW_MOONSTONE});
-		newItem("raw_onyx", RAW_ONYX,					ItemGroups.INGREDIENTS, new Object[] {false, RAW_OLIVINE});
-		newItem("raw_rose_quartz", RAW_ROSE_QUARTZ,		ItemGroups.INGREDIENTS, new Object[] {false, Items.QUARTZ});
-		newItem("raw_ruby", RAW_RUBY,					ItemGroups.INGREDIENTS, new Object[] {false, RAW_ROSE_QUARTZ});
-		newItem("raw_smoky_quartz", RAW_SMOKY_QUARTZ,	ItemGroups.INGREDIENTS, new Object[] {false, RAW_SMOKY_QUARTZ});
-		newItem("raw_tiger_eye", RAW_TIGER_EYE,			ItemGroups.INGREDIENTS, new Object[] {false, RAW_RUBY});
-		newItem("raw_topaz", RAW_TOPAZ,					ItemGroups.INGREDIENTS, new Object[] {false, RAW_TIGER_EYE});
-		newItem("raw_tourmaline", RAW_TOURMALINE,		ItemGroups.INGREDIENTS, new Object[] {false, RAW_TOPAZ});
+		newItem("raw_amber",		RAW_AMBER,			ItemGroups.INGREDIENTS, new Object[] {true, Items.AMETHYST_SHARD});
+		newItem("raw_aquamarine",	RAW_AQUAMARINE,		ItemGroups.INGREDIENTS, new Object[] {false, Items.AMETHYST_SHARD});
+		newItem("raw_diamond",		RAW_DIAMOND,		ItemGroups.INGREDIENTS, new Object[] {false, RAW_AQUAMARINE});
+		newItem("raw_emerald",		RAW_EMERALD,		ItemGroups.INGREDIENTS, new Object[] {false, RAW_DIAMOND});
+		newItem("raw_moonstone",	RAW_MOONSTONE,		ItemGroups.INGREDIENTS, new Object[] {false, Items.LAPIS_LAZULI});
+		newItem("raw_olivine",		RAW_OLIVINE,		ItemGroups.INGREDIENTS, new Object[] {false, RAW_MOONSTONE});
+		newItem("raw_onyx",			RAW_ONYX,			ItemGroups.INGREDIENTS, new Object[] {false, RAW_OLIVINE});
+		newItem("raw_rose_quartz",	RAW_ROSE_QUARTZ,	ItemGroups.INGREDIENTS, new Object[] {false, Items.QUARTZ});
+		newItem("raw_ruby",			RAW_RUBY,			ItemGroups.INGREDIENTS, new Object[] {false, RAW_ROSE_QUARTZ});
+		newItem("raw_smoky_quartz",	RAW_SMOKY_QUARTZ,	ItemGroups.INGREDIENTS, new Object[] {false, RAW_RUBY});
+		newItem("raw_tiger_eye",	RAW_TIGER_EYE,		ItemGroups.INGREDIENTS, new Object[] {false, RAW_SMOKY_QUARTZ});
+		newItem("raw_topaz",		RAW_TOPAZ,			ItemGroups.INGREDIENTS, new Object[] {false, RAW_TIGER_EYE});
+		newItem("raw_tourmaline",	RAW_TOURMALINE,		ItemGroups.INGREDIENTS, new Object[] {false, RAW_TOPAZ});
 	}
 }
