@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"gardenmod:white_crystal",
+		"gardenmod:light_gray_crystal",
+		"gardenmod:gray_crystal",
+		"gardenmod:black_crystal",
+		"gardenmod:brown_crystal",
+		"gardenmod:red_crystal",
+		"gardenmod:orange_crystal",
+		"gardenmod:yellow_crystal",
+		"gardenmod:lime_crystal",
+		"gardenmod:green_crystal",
+		"gardenmod:cyan_crystal",
+		"gardenmod:light_blue_crystal",
+		"gardenmod:blue_crystal",
+		"gardenmod:purple_crystal",
+		"gardenmod:magenta_crystal",
+		"gardenmod:pink_crystal"
+	]
+}

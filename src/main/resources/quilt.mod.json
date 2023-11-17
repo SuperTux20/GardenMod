@@ -21,7 +21,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.supertux20.gardenmod.GardenMod"
+			"init": "com.supertux20.gardenmod.GardenMod",
+			"client_init": "com.supertux20.gardenmod.GardenModClient"
 		},
 		"depends": [
 			{
