@@ -73,9 +73,8 @@ import net.minecraft.util.Identifier;
 
 public class GardenBlocks {
 	public static void newItem(String itemName, Block item, RegistryKey<ItemGroup> group, ItemConvertible sortItem, Object... sortBefore) {
-		Registry.register(Registries.ITEM, new Identifier(GardenMod.ID, itemName), new BlockItem(item, new QuiltItemSettings()));
 		Registry.register(Registries.BLOCK, new Identifier(GardenMod.ID, itemName), item);
-		GardenMod.newItem(itemName, item.asItem(), group, sortItem, sortBefore);
+		GardenItems.newItem(itemName, new BlockItem(item, new QuiltItemSettings()).asItem(), group, sortItem, sortBefore);
 	}
 
 	public static final Block MYTHRIL_ORE				= new MythrilOre();
