@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "gardenmod:raw_moonstone"
+	},
+	"result": "gardenmod:moonstone",
+	"experience": 1
+}

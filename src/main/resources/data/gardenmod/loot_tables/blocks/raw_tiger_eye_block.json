@@ -1,0 +1,9 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "gardenmod:raw_tiger_eye_block"
+		}]
+	}]
+}

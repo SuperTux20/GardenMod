@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["###", "###", "###"],
+	"key": {
+		"#": {
+			"item": "gardenmod:raw_moonstone"
+		}
+	},
+	"result": {
+		"item": "gardenmod:raw_moonstone_block",
+		"count": 1
+	}
+}

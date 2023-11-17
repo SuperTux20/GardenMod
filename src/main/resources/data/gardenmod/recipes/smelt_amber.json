@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "gardenmod:raw_amber"
+	},
+	"result": "gardenmod:amber",
+	"experience": 1
+}

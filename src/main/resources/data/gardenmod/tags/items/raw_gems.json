@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"gardenmod:raw_amber",
+		"minecraft:amethyst_shard",
+		"gardenmod:raw_aquamarine",
+		"gardenmod:raw_diamond",
+		"gardenmod:raw_emerald",
+		"gardenmod:raw_lapis",
+		"gardenmod:raw_moonstone",
+		"gardenmod:raw_olivine",
+		"gardenmod:raw_onyx",
+		"minecraft:quartz",
+		"gardenmod:raw_rose_quartz",
+		"gardenmod:raw_ruby",
+		"gardenmod:raw_smoky_quartz",
+		"gardenmod:raw_tiger_eye",
+		"gardenmod:raw_topaz",
+		"gardenmod:raw_tourmaline"
+	]
+}

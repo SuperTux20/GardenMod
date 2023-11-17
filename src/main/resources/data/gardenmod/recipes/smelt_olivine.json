@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "gardenmod:raw_olivine"
+	},
+	"result": "gardenmod:olivine",
+	"experience": 1
+}

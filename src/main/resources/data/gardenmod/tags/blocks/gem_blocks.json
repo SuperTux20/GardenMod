@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"gardenmod:amber_block",
+		"gardenmod:amethyst_block",
+		"gardenmod:aquamarine_block",
+		"minecraft:diamond_block",
+		"minecraft:emerald_block",
+		"minecraft:lapis_block",
+		"gardenmod:moonstone_block",
+		"gardenmod:olivine_block",
+		"gardenmod:onyx_block",
+		"minecraft:quartz_block",
+		"gardenmod:rose_quartz_block",
+		"gardenmod:ruby_block",
+		"gardenmod:smoky_quartz_block",
+		"gardenmod:tiger_eye_block",
+		"gardenmod:topaz_block",
+		"gardenmod:tourmaline_block"
+	]
+}

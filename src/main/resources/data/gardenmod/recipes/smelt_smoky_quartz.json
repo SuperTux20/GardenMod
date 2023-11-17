@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "gardenmod:raw_smoky_quartz"
+	},
+	"result": "gardenmod:smoky_quartz",
+	"experience": 1
+}

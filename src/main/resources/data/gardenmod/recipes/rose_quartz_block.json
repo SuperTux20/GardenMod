@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "gardenmod:rose_quartz"
+		}
+	},
+	"result": {
+		"item": "gardenmod:rose_quartz_block",
+		"count": 1
+	}
+}

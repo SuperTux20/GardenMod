@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{
+		"item": "gardenmod:smoky_quartz_block"
+	}],
+	"result": {
+		"item": "gardenmod:smoky_quartz",
+		"count": 9
+	}
+}

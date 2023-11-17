@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "gardenmod:amber"
+		}
+	},
+	"result": {
+		"item": "gardenmod:amber_block",
+		"count": 1
+	}
+}

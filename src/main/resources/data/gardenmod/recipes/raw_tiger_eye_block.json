@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["###", "###", "###"],
+	"key": {
+		"#": {
+			"item": "gardenmod:raw_tiger_eye"
+		}
+	},
+	"result": {
+		"item": "gardenmod:raw_tiger_eye_block",
+		"count": 1
+	}
+}

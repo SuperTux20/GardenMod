@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "gardenmod:olivine"
+		}
+	},
+	"result": {
+		"item": "gardenmod:olivine_block",
+		"count": 1
+	}
+}
