@@ -3,6 +3,12 @@ package com.supertux20.gardenmod;
 import com.supertux20.gardenmod.init.GardenBlocks;
 import com.supertux20.gardenmod.init.GardenItems;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.registry.RegistryKey;
+
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
@@ -19,6 +25,14 @@ public class GardenMod implements ModInitializer {
 		LOGGER.info("Hello Quilt world from {}!", mod.metadata().name());
 		GardenBlocks.register();
 		GardenItems.register();
+	}
+
+	public static final void newItem(String itemName, Item item, RegistryKey<ItemGroup> group, ItemConvertible sortItem, Object... sortBefore) {
+		if (sortBefore.length != 0) {
+			ItemGroupEvents.modifyEntriesEvent(group).register(entries -> {entries.addBefore(sortItem, item);});
+		} else {
+			ItemGroupEvents.modifyEntriesEvent(group).register(entries -> {entries.addAfter(sortItem, item);});
+		}
 	}
 
 	public static final String ID = "gardenmod";
