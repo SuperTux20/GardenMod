@@ -78,69 +78,66 @@ public class GardenBlocks {
 		GardenMod.newItem(itemName, item.asItem(), group, sortItem, sortBefore);
 	}
 
-	public static final Block MYTHRIL_ORE = new MythrilOre();
-	public static final Block DEEPSLATE_MYTHRIL_ORE = new DeepslateMythrilOre();
-	
-	public static final Block ORICHALCUM_ORE = new OrichalcumOre();
-	public static final Block DEEPSLATE_ORICHALCUM_ORE = new DeepslateOrichalcumOre();
+	public static final Block MYTHRIL_ORE				= new MythrilOre();
+	public static final Block DEEPSLATE_MYTHRIL_ORE		= new DeepslateMythrilOre();
+	public static final Block RAW_MYTHRIL_BLOCK			= new RawMythrilBlock();
+	public static final Block MYTHRIL_BLOCK				= new MythrilBlock();
+	public static final Block ORICHALCUM_ORE			= new OrichalcumOre();
+	public static final Block DEEPSLATE_ORICHALCUM_ORE	= new DeepslateOrichalcumOre();
+	public static final Block RAW_ORICHALCUM_BLOCK		= new RawOrichalcumBlock();
+	public static final Block ORICHALCUM_BLOCK			= new OrichalcumBlock();
 
-	public static final Block RAW_MYTHRIL_BLOCK = new RawMythrilBlock();
-	public static final Block MYTHRIL_BLOCK= new MythrilBlock();
+	public static final Block RAW_AMBER_BLOCK			= new RawAmberBlock();
+	public static final Block RAW_AQUAMARINE_BLOCK		= new RawAquamarineBlock();
+	public static final Block RAW_DIAMOND_BLOCK			= new RawDiamondBlock();
+	public static final Block RAW_EMERALD_BLOCK			= new RawEmeraldBlock();
+	public static final Block RAW_LAPIS_LAZULI_BLOCK	= new RawLapisLazuliBlock();
+	public static final Block RAW_MOONSTONE_BLOCK		= new RawMoonstoneBlock();
+	public static final Block RAW_OLIVINE_BLOCK			= new RawOlivineBlock();
+	public static final Block RAW_ONYX_BLOCK			= new RawOnyxBlock();
+	public static final Block RAW_QUARTZ_BLOCK			= new RawQuartzBlock();
+	public static final Block RAW_ROSE_QUARTZ_BLOCK		= new RawRoseQuartzBlock();
+	public static final Block RAW_RUBY_BLOCK			= new RawRubyBlock();
+	public static final Block RAW_SMOKY_QUARTZ_BLOCK	= new RawSmokyquartzBlock();
+	public static final Block RAW_TIGER_EYE_BLOCK		= new RawTigerEyeBlock();
+	public static final Block RAW_TOPAZ_BLOCK			= new RawTopazBlock();
+	public static final Block RAW_TOURMALINE_BLOCK		= new RawTourmalineBlock();
 
-	public static final Block RAW_ORICHALCUM_BLOCK = new RawOrichalcumBlock();
-	public static final Block ORICHALCUM_BLOCK = new OrichalcumBlock();
+	public static final Block AMBER_BLOCK			= new AmberBlock();
+	public static final Block AMETHYST_BLOCK		= new AmethystBlock();
+	public static final Block AQUAMARINE_BLOCK		= new AquamarineBlock();
+	public static final Block MOONSTONE_BLOCK		= new MoonstoneBlock();
+	public static final Block OLIVINE_BLOCK			= new OlivineBlock();
+	public static final Block ONYX_BLOCK			= new OnyxBlock();
+	public static final Block ROSE_QUARTZ_BLOCK		= new RoseQuartzBlock();
+	public static final Block RUBY_BLOCK			= new RubyBlock();
+	public static final Block SMOKY_QUARTZ_BLOCK	= new SmokyQuartzBlock();
+	public static final Block TIGER_EYE_BLOCK		= new TigerEyeBlock();
+	public static final Block TOPAZ_BLOCK			= new TopazBlock();
+	public static final Block TOURMALINE_BLOCK		= new TourmalineBlock();
 
-	public static final Block RAW_AMBER_BLOCK = new RawAmberBlock();
-	public static final Block RAW_AQUAMARINE_BLOCK = new RawAquamarineBlock();
-	public static final Block RAW_DIAMOND_BLOCK = new RawDiamondBlock();
-	public static final Block RAW_EMERALD_BLOCK = new RawEmeraldBlock();
-	public static final Block RAW_LAPIS_LAZULI_BLOCK = new RawLapisLazuliBlock();
-	public static final Block RAW_MOONSTONE_BLOCK = new RawMoonstoneBlock();
-	public static final Block RAW_OLIVINE_BLOCK = new RawOlivineBlock();
-	public static final Block RAW_ONYX_BLOCK = new RawOnyxBlock();
-	public static final Block RAW_QUARTZ_BLOCK = new RawQuartzBlock();
-	public static final Block RAW_ROSE_QUARTZ_BLOCK = new RawRoseQuartzBlock();
-	public static final Block RAW_RUBY_BLOCK = new RawRubyBlock();
-	public static final Block RAW_SMOKY_QUARTZ_BLOCK = new RawSmokyquartzBlock();
-	public static final Block RAW_TIGER_EYE_BLOCK = new RawTigerEyeBlock();
-	public static final Block RAW_TOPAZ_BLOCK = new RawTopazBlock();
-	public static final Block RAW_TOURMALINE_BLOCK = new RawTourmalineBlock();
+	public static final Block WHITE_CRYSTAL			= new WhiteCrystal();
+	public static final Block LIGHT_GRAY_CRYSTAL	= new LightGrayCrystal();
+	public static final Block GRAY_CRYSTAL			= new GrayCrystal();
+	public static final Block BLACK_CRYSTAL			= new BlackCrystal();
+	public static final Block BROWN_CRYSTAL			= new BrownCrystal();
+	public static final Block RED_CRYSTAL			= new RedCrystal();
+	public static final Block ORANGE_CRYSTAL		= new OrangeCrystal();
+	public static final Block YELLOW_CRYSTAL		= new YellowCrystal();
+	public static final Block LIME_CRYSTAL			= new LimeCrystal();
+	public static final Block GREEN_CRYSTAL			= new GreenCrystal();
+	public static final Block CYAN_CRYSTAL			= new CyanCrystal();
+	public static final Block LIGHT_BLUE_CRYSTAL	= new LightBlueCrystal();
+	public static final Block BLUE_CRYSTAL			= new BlueCrystal();
+	public static final Block PURPLE_CRYSTAL		= new PurpleCrystal();
+	public static final Block MAGENTA_CRYSTAL		= new MagentaCrystal();
+	public static final Block PINK_CRYSTAL			= new PinkCrystal();
 
-	public static final Block AMBER_BLOCK = new AmberBlock();
-	public static final Block AMETHYST_BLOCK = new AmethystBlock();
-	public static final Block AQUAMARINE_BLOCK = new AquamarineBlock();
-	public static final Block MOONSTONE_BLOCK = new MoonstoneBlock();
-	public static final Block OLIVINE_BLOCK = new OlivineBlock();
-	public static final Block ONYX_BLOCK = new OnyxBlock();
-	public static final Block ROSE_QUARTZ_BLOCK = new RoseQuartzBlock();
-	public static final Block RUBY_BLOCK = new RubyBlock();
-	public static final Block SMOKY_QUARTZ_BLOCK = new SmokyQuartzBlock();
-	public static final Block TIGER_EYE_BLOCK = new TigerEyeBlock();
-	public static final Block TOPAZ_BLOCK = new TopazBlock();
-	public static final Block TOURMALINE_BLOCK = new TourmalineBlock();
-
-	public static final Block WHITE_CRYSTAL = new WhiteCrystal();
-	public static final Block LIGHT_GRAY_CRYSTAL = new LightGrayCrystal();
-	public static final Block GRAY_CRYSTAL = new GrayCrystal();
-	public static final Block BLACK_CRYSTAL = new BlackCrystal();
-	public static final Block BROWN_CRYSTAL = new BrownCrystal();
-	public static final Block RED_CRYSTAL = new RedCrystal();
-	public static final Block ORANGE_CRYSTAL = new OrangeCrystal();
-	public static final Block YELLOW_CRYSTAL = new YellowCrystal();
-	public static final Block LIME_CRYSTAL = new LimeCrystal();
-	public static final Block GREEN_CRYSTAL = new GreenCrystal();
-	public static final Block CYAN_CRYSTAL = new CyanCrystal();
-	public static final Block LIGHT_BLUE_CRYSTAL = new LightBlueCrystal();
-	public static final Block BLUE_CRYSTAL = new BlueCrystal();
-	public static final Block PURPLE_CRYSTAL = new PurpleCrystal();
-	public static final Block MAGENTA_CRYSTAL = new MagentaCrystal();
-	public static final Block PINK_CRYSTAL = new PinkCrystal();
-
-	public static final Block TENTACLE_BLOCK = new TentacleBlock();
-	public static final Block CHOCOLATE_GRAVEL = new ChocolateGravel();
-	public static final Block PEPPERMINT_BLOCK = new PeppermintBlock();
-	public static final Block CANDY_CANE_BLOCK = new CandyCaneBlock();
-	public static final Block CANDY_CANE_LOG = new CandyCaneLog();
+	public static final Block TENTACLE_BLOCK	= new TentacleBlock();
+	public static final Block CHOCOLATE_GRAVEL	= new ChocolateGravel();
+	public static final Block PEPPERMINT_BLOCK	= new PeppermintBlock();
+	public static final Block CANDY_CANE_BLOCK	= new CandyCaneBlock();
+	public static final Block CANDY_CANE_LOG	= new CandyCaneLog();
 
 	// registers the blocks so they now exist in the registry
 	public static void register() {
@@ -152,7 +149,6 @@ public class GardenBlocks {
 		newItem("deepslate_orichalcum_ore",	DEEPSLATE_ORICHALCUM_ORE,	ItemGroups.NATURAL_BLOCKS, ORICHALCUM_ORE);
 		newItem("raw_orichalcum_block",		RAW_ORICHALCUM_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_MYTHRIL_BLOCK);
 		newItem("orichalcum_block",			ORICHALCUM_BLOCK,			ItemGroups.BUILDING_BLOCKS, MYTHRIL_BLOCK);
-		newItem("tentacle_block",			TENTACLE_BLOCK,				ItemGroups.NATURAL_BLOCKS, Items.GRASS_BLOCK);
 		
 		newItem("raw_amber_block",			RAW_AMBER_BLOCK,		ItemGroups.NATURAL_BLOCKS, Items.AMETHYST_BLOCK, true);
 		newItem("raw_aquamarine_block",		RAW_AQUAMARINE_BLOCK,	ItemGroups.NATURAL_BLOCKS, Items.AMETHYST_BLOCK);
@@ -200,6 +196,7 @@ public class GardenBlocks {
 		newItem("magenta_crystal",		MAGENTA_CRYSTAL,	ItemGroups.COLORED_BLOCKS, PURPLE_CRYSTAL);
 		newItem("pink_crystal",			PINK_CRYSTAL,		ItemGroups.COLORED_BLOCKS, MAGENTA_CRYSTAL);
 
+		newItem("tentacle_block",	TENTACLE_BLOCK,		ItemGroups.NATURAL_BLOCKS, Items.BONE_BLOCK, true);
 		newItem("chocolate_gravel",	CHOCOLATE_GRAVEL,	ItemGroups.NATURAL_BLOCKS, Items.GRAVEL);
 		newItem("candy_cane_log",	CANDY_CANE_LOG,		ItemGroups.BUILDING_BLOCKS, Items.WARPED_BUTTON);
 		newItem("candy_cane_block",	CANDY_CANE_BLOCK,	ItemGroups.BUILDING_BLOCKS, CANDY_CANE_LOG);

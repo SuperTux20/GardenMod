@@ -53,44 +53,44 @@ public class GardenItems {
 		GardenMod.newItem(itemName, item, group, sortItem, sortBefore);
 	}
 
-	public static final Item AMETHYST_CHIMES = new AmethystChimes();
-	public static final Item CINNAMON_ROLL = new CinnamonRoll();
+	public static final Item AMETHYST_CHIMES	= new AmethystChimes();
+	public static final Item CINNAMON_ROLL		= new CinnamonRoll();
 
-	public static final Item RAW_MYTHRIL = new RawMythril();
-	public static final Item MYTHRIL_NUGGET = new MythrilNugget();
-	public static final Item MYTHRIL_INGOT = new MythrilIngot();
-	public static final Item RAW_ORICHALCUM = new RawOrichalcum();
-	public static final Item ORICHALCUM_NUGGET = new OrichalcumNugget();
-	public static final Item ORICHALCUM_INGOT = new OrichalcumIngot();
+	public static final Item RAW_MYTHRIL		= new RawMythril();
+	public static final Item MYTHRIL_NUGGET		= new MythrilNugget();
+	public static final Item MYTHRIL_INGOT		= new MythrilIngot();
+	public static final Item RAW_ORICHALCUM		= new RawOrichalcum();
+	public static final Item ORICHALCUM_NUGGET	= new OrichalcumNugget();
+	public static final Item ORICHALCUM_INGOT	= new OrichalcumIngot();
 
-	public static final Item AMBER = new Amber();
-	public static final Item AMETHYST = new Amethyst();
-	public static final Item AQUAMARINE = new Aquamarine();
-	public static final Item LAPIS_LAZULI = new LapisLazuli();
-	public static final Item MOONSTONE = new Moonstone();
-	public static final Item OLIVINE = new Olivine();
-	public static final Item ONYX = new Onyx();
-	public static final Item QUARTZ = new Quartz();
-	public static final Item ROSE_QUARTZ = new RoseQuartz();
-	public static final Item RUBY = new Ruby();
-	public static final Item SMOKY_QUARTZ = new SmokyQuartz();
-	public static final Item TIGER_EYE = new TigerEye();
-	public static final Item TOPAZ = new Topaz();
-	public static final Item TOURMALINE = new Tourmaline();
+	public static final Item AMBER			= new Amber();
+	public static final Item AMETHYST		= new Amethyst();
+	public static final Item AQUAMARINE		= new Aquamarine();
+	public static final Item LAPIS_LAZULI	= new LapisLazuli();
+	public static final Item MOONSTONE		= new Moonstone();
+	public static final Item OLIVINE		= new Olivine();
+	public static final Item ONYX			= new Onyx();
+	public static final Item QUARTZ			= new Quartz();
+	public static final Item ROSE_QUARTZ	= new RoseQuartz();
+	public static final Item RUBY			= new Ruby();
+	public static final Item SMOKY_QUARTZ	= new SmokyQuartz();
+	public static final Item TIGER_EYE		= new TigerEye();
+	public static final Item TOPAZ			= new Topaz();
+	public static final Item TOURMALINE		= new Tourmaline();
 
-	public static final Item RAW_AMBER = new RawAmber();
-	public static final Item RAW_AQUAMARINE = new RawAquamarine();
-	public static final Item RAW_DIAMOND = new RawDiamond();
-	public static final Item RAW_EMERALD = new RawEmerald();
-	public static final Item RAW_MOONSTONE = new RawMoonstone();
-	public static final Item RAW_OLIVINE = new RawOlivine();
-	public static final Item RAW_ONYX = new RawOnyx();
-	public static final Item RAW_ROSE_QUARTZ = new RawRoseQuartz();
-	public static final Item RAW_RUBY = new RawRuby();
-	public static final Item RAW_SMOKY_QUARTZ = new RawSmokyQuartz();
-	public static final Item RAW_TIGER_EYE = new RawTigerEye();
-	public static final Item RAW_TOPAZ = new RawTopaz();
-	public static final Item RAW_TOURMALINE = new RawTourmaline();
+	public static final Item RAW_AMBER			= new RawAmber();
+	public static final Item RAW_AQUAMARINE		= new RawAquamarine();
+	public static final Item RAW_DIAMOND		= new RawDiamond();
+	public static final Item RAW_EMERALD		= new RawEmerald();
+	public static final Item RAW_MOONSTONE		= new RawMoonstone();
+	public static final Item RAW_OLIVINE		= new RawOlivine();
+	public static final Item RAW_ONYX			= new RawOnyx();
+	public static final Item RAW_ROSE_QUARTZ	= new RawRoseQuartz();
+	public static final Item RAW_RUBY			= new RawRuby();
+	public static final Item RAW_SMOKY_QUARTZ	= new RawSmokyQuartz();
+	public static final Item RAW_TIGER_EYE		= new RawTigerEye();
+	public static final Item RAW_TOPAZ			= new RawTopaz();
+	public static final Item RAW_TOURMALINE		= new RawTourmaline();
 
 	// registers the items so they now exist in the registry
 	public static void register() {
