@@ -1,7 +1,11 @@
 {
 	"replace": false,
 	"values": [
+		"gardenmod:mythril_block",
 		"gardenmod:mythril_ore",
-		"gardenmod:orichalcum_ore"
+		"gardenmod:deepslate_mythril_ore",
+		"gardenmod:orichalcum_block",
+		"gardenmod:orichalcum_ore",
+		"gardenmod:deepslate_orichalcum_ore"
 	]
 }

@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"gardenmod:peppermint_block",
+		"gardenmod:candy_cane_block",
+		"gardenmod:candy_cane_log"
+	]
+}

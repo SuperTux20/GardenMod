@@ -6,6 +6,6 @@ import net.minecraft.sound.BlockSoundGroup;
 
 public class GemBase extends Block {
 	public GemBase() {
-		super(QuiltBlockSettings.create().sounds(BlockSoundGroup.STONE).strength(5F, 6F));
+		super(QuiltBlockSettings.create().sounds(BlockSoundGroup.STONE).strength(5F, 6F).requiresTool());
 	}
 }

@@ -1,12 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"gardenmod:mythril_block",
-		"gardenmod:mythril_ore",
-		"gardenmod:deepslate_mythril_ore",
-		"gardenmod:orichalcum_block",
-		"gardenmod:orichalcum_ore",
-		"gardenmod:deepslate_orichalcum_ore",
 		"gardenmod:raw_amber_block",
 		"gardenmod:raw_aquamarine_block",
 		"gardenmod:raw_diamond_block",
