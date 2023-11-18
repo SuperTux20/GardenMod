@@ -1,4 +1,4 @@
-package com.supertux20.gardenmod.blocks.crystals;
+package com.supertux20.gardenmod.blocks.minerals;
 
 import org.quiltmc.qsl.block.extensions.api.QuiltBlockSettings;
 import net.minecraft.block.Block;
