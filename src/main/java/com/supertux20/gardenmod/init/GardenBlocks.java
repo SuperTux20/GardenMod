@@ -28,6 +28,7 @@ import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
 public class GardenBlocks {
@@ -74,22 +75,22 @@ public class GardenBlocks {
 	public static final Block TOPAZ_BLOCK		= new GemBase();
 	public static final Block TOURMALINE_BLOCK	= new GemBase();
 
-	public static final Block WHITE_CRYSTAL		= new CrystalBase();
-	public static final Block LIGHT_GRAY_CRYSTAL= new CrystalBase();
-	public static final Block GRAY_CRYSTAL		= new CrystalBase();
-	public static final Block BLACK_CRYSTAL		= new CrystalBase();
-	public static final Block BROWN_CRYSTAL		= new CrystalBase();
-	public static final Block RED_CRYSTAL		= new CrystalBase();
-	public static final Block ORANGE_CRYSTAL	= new CrystalBase();
-	public static final Block YELLOW_CRYSTAL	= new CrystalBase();
-	public static final Block LIME_CRYSTAL		= new CrystalBase();
-	public static final Block GREEN_CRYSTAL		= new CrystalBase();
-	public static final Block CYAN_CRYSTAL		= new CrystalBase();
-	public static final Block LIGHT_BLUE_CRYSTAL= new CrystalBase();
-	public static final Block BLUE_CRYSTAL		= new CrystalBase();
-	public static final Block PURPLE_CRYSTAL	= new CrystalBase();
-	public static final Block MAGENTA_CRYSTAL	= new CrystalBase();
-	public static final Block PINK_CRYSTAL		= new CrystalBase();
+	public static final Block WHITE_CRYSTAL		= new CrystalBase(DyeColor.WHITE);
+	public static final Block LIGHT_GRAY_CRYSTAL= new CrystalBase(DyeColor.LIGHT_GRAY);
+	public static final Block GRAY_CRYSTAL		= new CrystalBase(DyeColor.GRAY);
+	public static final Block BLACK_CRYSTAL		= new CrystalBase(DyeColor.BLACK);
+	public static final Block BROWN_CRYSTAL		= new CrystalBase(DyeColor.BROWN);
+	public static final Block RED_CRYSTAL		= new CrystalBase(DyeColor.RED);
+	public static final Block ORANGE_CRYSTAL	= new CrystalBase(DyeColor.ORANGE);
+	public static final Block YELLOW_CRYSTAL	= new CrystalBase(DyeColor.YELLOW);
+	public static final Block LIME_CRYSTAL		= new CrystalBase(DyeColor.LIME);
+	public static final Block GREEN_CRYSTAL		= new CrystalBase(DyeColor.GREEN);
+	public static final Block CYAN_CRYSTAL		= new CrystalBase(DyeColor.CYAN);
+	public static final Block LIGHT_BLUE_CRYSTAL= new CrystalBase(DyeColor.LIGHT_BLUE);
+	public static final Block BLUE_CRYSTAL		= new CrystalBase(DyeColor.BLUE);
+	public static final Block PURPLE_CRYSTAL	= new CrystalBase(DyeColor.PURPLE);
+	public static final Block MAGENTA_CRYSTAL	= new CrystalBase(DyeColor.MAGENTA);
+	public static final Block PINK_CRYSTAL		= new CrystalBase(DyeColor.PINK);
 
 	public static final Block TENTACLE_BLOCK	= new TentacleBlock();
 	public static final Block CHOCOLATE_GRAVEL	= new ChocolateGravel();

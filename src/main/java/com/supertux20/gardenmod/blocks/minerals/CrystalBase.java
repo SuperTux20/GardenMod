@@ -3,11 +3,14 @@ package com.supertux20.gardenmod.blocks.minerals;
 import org.quiltmc.qsl.block.extensions.api.QuiltBlockSettings;
 
 import net.minecraft.block.Blocks;
-import net.minecraft.block.TransparentBlock;
+import net.minecraft.block.Stainable;
+import net.minecraft.block.StainedGlassBlock;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.DyeColor;
 
-public class CrystalBase extends TransparentBlock {
-	public CrystalBase() {
-		super(QuiltBlockSettings.create().sounds(BlockSoundGroup.GLASS).strength(1F, 1F).luminance(7).nonOpaque().allowsSpawning(Blocks::never).solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never));
+public class CrystalBase extends StainedGlassBlock implements Stainable {
+	public CrystalBase(DyeColor color) {
+		super(color, QuiltBlockSettings.create().mapColor(color).instrument(NoteBlockInstrument.HAT).strength(1F).sounds(BlockSoundGroup.GLASS).nonOpaque().allowsSpawning(Blocks::never).solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never));
 	}
 }
