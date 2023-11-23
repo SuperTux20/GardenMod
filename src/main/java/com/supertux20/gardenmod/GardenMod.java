@@ -21,7 +21,7 @@ public class GardenMod implements ModInitializer {
 
 	@Override
 	public void onInitialize(ModContainer mod) {
-		LOGGER.info("Hello Quilt world from {}!", mod.metadata().name());
+		LOGGER.info("I left this line in so that I don't forget how the logger works. Hello World from {}, btw", mod.metadata().name());
 		GardenBlocks.register();
 		GardenItems.register();
 		GardenWorldgen.register();
