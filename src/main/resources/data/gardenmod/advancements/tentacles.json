@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "tentacles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gardenmod:tentacle_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.tentacles.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "gardenmod:tentacle_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.tentacles.title"
+    }
+  },
+  "requirements": [
+    [
+      "tentacles"
+    ]
+  ]
+}
