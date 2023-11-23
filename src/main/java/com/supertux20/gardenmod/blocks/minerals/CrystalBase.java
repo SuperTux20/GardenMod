@@ -11,6 +11,6 @@ import net.minecraft.util.DyeColor;
 
 public class CrystalBase extends StainedGlassBlock implements Stainable {
 	public CrystalBase(DyeColor color) {
-		super(color, QuiltBlockSettings.create().mapColor(color).instrument(NoteBlockInstrument.HAT).strength(1F).sounds(BlockSoundGroup.GLASS).nonOpaque().allowsSpawning(Blocks::never).solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never));
+		super(color, QuiltBlockSettings.create().mapColor(color).instrument(NoteBlockInstrument.HAT).strength(1F).luminance(7).sounds(BlockSoundGroup.GLASS).nonOpaque().allowsSpawning(Blocks::never).solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never));
 	}
 }
