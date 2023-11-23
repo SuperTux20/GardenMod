@@ -33,6 +33,7 @@ public class GardenItems {
 	public static final Item RAW_ORICHALCUM		= new Item(new QuiltItemSettings());
 	public static final Item ORICHALCUM_NUGGET	= new Item(new QuiltItemSettings());
 	public static final Item ORICHALCUM_INGOT	= new Item(new QuiltItemSettings());
+	public static final Item STONE_BRICK		= new Item(new QuiltItemSettings());
 
 	public static final Item AMBER			= new Item(new QuiltItemSettings());
 	public static final Item AMETHYST		= new Item(new QuiltItemSettings());
@@ -76,6 +77,7 @@ public class GardenItems {
 		newItem("raw_orichalcum",		RAW_ORICHALCUM,		ItemGroups.INGREDIENTS, RAW_MYTHRIL);
 		newItem("orichalcum_nugget",	ORICHALCUM_NUGGET,	ItemGroups.INGREDIENTS, MYTHRIL_NUGGET);
 		newItem("orichalcum_ingot",		ORICHALCUM_INGOT,	ItemGroups.INGREDIENTS, MYTHRIL_INGOT);
+		newItem("stone_brick",			STONE_BRICK,		ItemGroups.INGREDIENTS, Items.BRICK, true);
 
 		newItem("amber",		AMBER,			ItemGroups.INGREDIENTS, Items.DIAMOND, true);
 		newItem("amethyst",		AMETHYST,		ItemGroups.INGREDIENTS, AMBER);

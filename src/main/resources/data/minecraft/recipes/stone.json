@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "minecraft:cobblestone"
+	},
+	"result": "gardenmod:stone_brick",
+	"experience": 1
+}
