@@ -3,8 +3,9 @@ package com.supertux20.gardenmod.init;
 import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 
 import com.supertux20.gardenmod.GardenMod;
-import com.supertux20.gardenmod.items.AmethystChimes;
-import com.supertux20.gardenmod.items.CinnamonRoll;
+import com.supertux20.gardenmod.items.*;
+import com.supertux20.gardenmod.items.food.*;
+
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.ItemGroup;
@@ -63,7 +64,7 @@ public class GardenItems {
 	// registers the items so they now exist in the registry
 	public static void register() {
 		newItem("amethyst_chimes",	AMETHYST_CHIMES,	ItemGroups.TOOLS_AND_UTILITIES, Items.GOAT_HORN);
-		newItem("cinnamon_roll",	CINNAMON_ROLL,		ItemGroups.FOOD_AND_DRINKS, Items.SPIDER_EYE);
+		newItem("cinnamon_roll",	CINNAMON_ROLL,		ItemGroups.FOOD_AND_DRINKS, Items.PUMPKIN_PIE);
 		
 		newItem("raw_mythril",			RAW_MYTHRIL,		ItemGroups.INGREDIENTS, Items.RAW_GOLD);
 		newItem("mythril_nugget",		MYTHRIL_NUGGET,		ItemGroups.INGREDIENTS, Items.GOLD_NUGGET);

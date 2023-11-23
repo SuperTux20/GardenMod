@@ -1,8 +1,7 @@
 package com.supertux20.gardenmod.init;
 
 import com.supertux20.gardenmod.GardenMod;
-import com.supertux20.gardenmod.world.gen.feature.CustomGeodeFeature;
-import com.supertux20.gardenmod.world.gen.feature.CustomGeodeFeatureConfig;
+import com.supertux20.gardenmod.world.gen.feature.*;
 
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

@@ -1,8 +1,6 @@
 package com.supertux20.gardenmod;
 
-import com.supertux20.gardenmod.init.GardenBlocks;
-import com.supertux20.gardenmod.init.GardenItems;
-import com.supertux20.gardenmod.init.GardenWorldgen;
+import com.supertux20.gardenmod.init.*;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
