@@ -23,7 +23,9 @@ public class GardenItems {
 	}
 
 	public static final Item AMETHYST_CHIMES	= new AmethystChimes();
+	
 	public static final Item CINNAMON_ROLL		= new CinnamonRoll();
+	public static final Item ROASTED_FLESH		= new RoastedFlesh();
 
 	public static final Item RAW_MYTHRIL		= new Item(new QuiltItemSettings());
 	public static final Item MYTHRIL_NUGGET		= new Item(new QuiltItemSettings());
@@ -64,7 +66,9 @@ public class GardenItems {
 	// registers the items so they now exist in the registry
 	public static void register() {
 		newItem("amethyst_chimes",	AMETHYST_CHIMES,	ItemGroups.TOOLS_AND_UTILITIES, Items.GOAT_HORN);
+		
 		newItem("cinnamon_roll",	CINNAMON_ROLL,		ItemGroups.FOOD_AND_DRINKS, Items.PUMPKIN_PIE);
+		newItem("roasted_flesh",	ROASTED_FLESH,		ItemGroups.FOOD_AND_DRINKS, Items.ROTTEN_FLESH);
 		
 		newItem("raw_mythril",			RAW_MYTHRIL,		ItemGroups.INGREDIENTS, Items.RAW_GOLD);
 		newItem("mythril_nugget",		MYTHRIL_NUGGET,		ItemGroups.INGREDIENTS, Items.GOLD_NUGGET);

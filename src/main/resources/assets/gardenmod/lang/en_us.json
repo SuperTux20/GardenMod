@@ -66,8 +66,10 @@
 	"block.gardenmod.magenta_crystal": "Magenta Crystal",
 	"block.gardenmod.pink_crystal": "Pink Crystal",
 
-	"item.gardenmod.cinnamon_roll": "Cinnamon Roll",
 	"item.gardenmod.amethyst_chimes": "Amethyst Chimes",
+	
+	"item.gardenmod.cinnamon_roll": "Cinnamon Roll",
+	"item.gardenmod.roasted_flesh": "Roasted Flesh",
 
 	"item.gardenmod.raw_mythril": "Raw Mythril",
 	"item.gardenmod.raw_orichalcum": "Raw Orichalcum",
