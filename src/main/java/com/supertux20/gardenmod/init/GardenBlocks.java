@@ -112,7 +112,7 @@ public class GardenBlocks {
 		newItem("raw_aquamarine_block",		RAW_AQUAMARINE_BLOCK,	ItemGroups.NATURAL_BLOCKS, Items.AMETHYST_BLOCK);
 		newItem("raw_diamond_block",		RAW_DIAMOND_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_AQUAMARINE_BLOCK);
 		newItem("raw_emerald_block",		RAW_EMERALD_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_DIAMOND_BLOCK);
-		newItem("raw_lapis_lazuli_block",	RAW_LAPIS_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_EMERALD_BLOCK);
+		newItem("raw_lapis_block",			RAW_LAPIS_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_EMERALD_BLOCK);
 		newItem("raw_moonstone_block",		RAW_MOONSTONE_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_LAPIS_BLOCK);
 		newItem("raw_olivine_block",		RAW_OLIVINE_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_MOONSTONE_BLOCK);
 		newItem("raw_onyx_block",			RAW_ONYX_BLOCK,			ItemGroups.NATURAL_BLOCKS, RAW_OLIVINE_BLOCK);

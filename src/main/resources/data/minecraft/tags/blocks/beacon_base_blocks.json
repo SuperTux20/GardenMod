@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "#gardenmod:gem_blocks",
+			"required": true
+	    },
+		"minecraft:lapis_block",
+		"minecraft:quartz_block"
+	]
+}

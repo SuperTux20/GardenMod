@@ -2,6 +2,7 @@ package com.supertux20.gardenmod;
 
 import com.supertux20.gardenmod.init.GardenBlocks;
 import com.supertux20.gardenmod.init.GardenItems;
+import com.supertux20.gardenmod.init.GardenWorldgen;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -25,6 +26,7 @@ public class GardenMod implements ModInitializer {
 		LOGGER.info("Hello Quilt world from {}!", mod.metadata().name());
 		GardenBlocks.register();
 		GardenItems.register();
+		GardenWorldgen.register();
 	}
 
 	public static final void newItem(String itemName, Item item, RegistryKey<ItemGroup> group, ItemConvertible sortItem, Object... sortBefore) {

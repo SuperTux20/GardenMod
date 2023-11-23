@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "gardenmod:block/raw_lapis_lazuli_block"
+		"all": "gardenmod:block/raw_lapis_block"
 	}
 }
