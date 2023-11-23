@@ -36,9 +36,10 @@
     [],
     [],
     [
-      "gardenmod:onyx_geode",
-      "gardenmod:quartz_geode",
-      "gardenmod:smoky_quartz_geode"
+      "gardenmod:nether_moonstone_geode",
+      "gardenmod:nether_onyx_geode",
+      "gardenmod:nether_quartz_geode",
+      "gardenmod:nether_smoky_quartz_geode"
     ],
     [],
     [
@@ -61,7 +62,6 @@
       "minecraft:ore_magma",
       "minecraft:spring_closed_double",
       "minecraft:ore_gold_deltas",
-      "minecraft:ore_quartz_deltas",
       "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small"
     ]
