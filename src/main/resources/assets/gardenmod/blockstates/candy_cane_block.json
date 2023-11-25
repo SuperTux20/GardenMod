@@ -1,7 +1,16 @@
 {
-	"variants": {
-		"": {
-			"model": "gardenmod:block/candy_cane_block"
-		}
-	}
+  "variants": {
+    "axis=x": {
+      "model": "gardenmod:block/candy_cane_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "gardenmod:block/candy_cane_block"
+    },
+    "axis=z": {
+      "model": "gardenmod:block/candy_cane_block_horizontal",
+      "x": 90
+    }
+  }
 }

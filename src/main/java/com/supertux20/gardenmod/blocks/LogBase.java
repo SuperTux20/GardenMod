@@ -9,9 +9,14 @@ import net.minecraft.state.StateManager;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.Direction.Axis;
 
-public class CandyCaneLog extends Block {
-	public CandyCaneLog() {
-		super(QuiltBlockSettings.create().sounds(BlockSoundGroup.STONE).strength(2F, 2F));
+public class LogBase extends Block {
+	public LogBase(BlockSoundGroup sound) {
+		super(QuiltBlockSettings.create().sounds(sound).strength(2F, 2F));
+		setDefaultState(this.stateManager.getDefaultState().with(Properties.AXIS, Axis.Y));
+	}
+	
+	public LogBase() {
+		super(QuiltBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(2F, 2F));
 		setDefaultState(this.stateManager.getDefaultState().with(Properties.AXIS, Axis.Y));
 	}
 

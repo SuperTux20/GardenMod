@@ -40,7 +40,7 @@ public class GardenItems {
 	public static final Item AQUAMARINE		= new Item(new QuiltItemSettings());
 	public static final Item LAPIS_LAZULI	= new Item(new QuiltItemSettings());
 	public static final Item MOONSTONE		= new Item(new QuiltItemSettings());
-	public static final Item OLIVINE		= new Item(new QuiltItemSettings());
+	public static final Item PERIDOT		= new Item(new QuiltItemSettings());
 	public static final Item ONYX			= new Item(new QuiltItemSettings());
 	public static final Item QUARTZ			= new Item(new QuiltItemSettings());
 	public static final Item ROSE_QUARTZ	= new Item(new QuiltItemSettings());
@@ -55,7 +55,7 @@ public class GardenItems {
 	public static final Item RAW_DIAMOND		= new Item(new QuiltItemSettings());
 	public static final Item RAW_EMERALD		= new Item(new QuiltItemSettings());
 	public static final Item RAW_MOONSTONE		= new Item(new QuiltItemSettings());
-	public static final Item RAW_OLIVINE		= new Item(new QuiltItemSettings());
+	public static final Item RAW_PERIDOT		= new Item(new QuiltItemSettings());
 	public static final Item RAW_ONYX			= new Item(new QuiltItemSettings());
 	public static final Item RAW_ROSE_QUARTZ	= new Item(new QuiltItemSettings());
 	public static final Item RAW_RUBY			= new Item(new QuiltItemSettings());
@@ -84,8 +84,8 @@ public class GardenItems {
 		newItem("aquamarine",	AQUAMARINE,		ItemGroups.INGREDIENTS, AMETHYST);
 		newItem("lapis_lazuli",	LAPIS_LAZULI,	ItemGroups.INGREDIENTS, Items.EMERALD);
 		newItem("moonstone",	MOONSTONE,		ItemGroups.INGREDIENTS, LAPIS_LAZULI);
-		newItem("olivine",		OLIVINE,		ItemGroups.INGREDIENTS, MOONSTONE);
-		newItem("onyx",			ONYX,			ItemGroups.INGREDIENTS, OLIVINE);
+		newItem("peridot",		PERIDOT,		ItemGroups.INGREDIENTS, MOONSTONE);
+		newItem("onyx",			ONYX,			ItemGroups.INGREDIENTS, PERIDOT);
 		newItem("quartz",		QUARTZ,			ItemGroups.INGREDIENTS, ONYX);
 		newItem("rose_quartz",	ROSE_QUARTZ,	ItemGroups.INGREDIENTS, QUARTZ);
 		newItem("ruby",			RUBY,			ItemGroups.INGREDIENTS, ROSE_QUARTZ);
@@ -99,8 +99,8 @@ public class GardenItems {
 		newItem("raw_diamond",		RAW_DIAMOND,		ItemGroups.INGREDIENTS, RAW_AQUAMARINE);
 		newItem("raw_emerald",		RAW_EMERALD,		ItemGroups.INGREDIENTS, RAW_DIAMOND);
 		newItem("raw_moonstone",	RAW_MOONSTONE,		ItemGroups.INGREDIENTS, Items.LAPIS_LAZULI);
-		newItem("raw_olivine",		RAW_OLIVINE,		ItemGroups.INGREDIENTS, RAW_MOONSTONE);
-		newItem("raw_onyx",			RAW_ONYX,			ItemGroups.INGREDIENTS, RAW_OLIVINE);
+		newItem("raw_peridot",		RAW_PERIDOT,		ItemGroups.INGREDIENTS, RAW_MOONSTONE);
+		newItem("raw_onyx",			RAW_ONYX,			ItemGroups.INGREDIENTS, RAW_PERIDOT);
 		newItem("raw_rose_quartz",	RAW_ROSE_QUARTZ,	ItemGroups.INGREDIENTS, Items.QUARTZ);
 		newItem("raw_ruby",			RAW_RUBY,			ItemGroups.INGREDIENTS, RAW_ROSE_QUARTZ);
 		newItem("raw_smoky_quartz",	RAW_SMOKY_QUARTZ,	ItemGroups.INGREDIENTS, RAW_RUBY);

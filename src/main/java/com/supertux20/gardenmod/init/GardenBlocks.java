@@ -16,6 +16,7 @@ import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
@@ -40,7 +41,7 @@ public class GardenBlocks {
 	public static final Block RAW_EMERALD_BLOCK		= new RawGemBase();
 	public static final Block RAW_LAPIS_BLOCK		= new RawGemBase();
 	public static final Block RAW_MOONSTONE_BLOCK	= new RawGemBase();
-	public static final Block RAW_OLIVINE_BLOCK		= new RawGemBase();
+	public static final Block RAW_PERIDOT_BLOCK		= new RawGemBase();
 	public static final Block RAW_ONYX_BLOCK		= new RawGemBase();
 	public static final Block RAW_QUARTZ_BLOCK		= new RawGemBase();
 	public static final Block RAW_ROSE_QUARTZ_BLOCK	= new RawGemBase();
@@ -54,7 +55,7 @@ public class GardenBlocks {
 	public static final Block AMETHYST_BLOCK	= new GemBase();
 	public static final Block AQUAMARINE_BLOCK	= new GemBase();
 	public static final Block MOONSTONE_BLOCK	= new GemBase();
-	public static final Block OLIVINE_BLOCK		= new GemBase();
+	public static final Block PERIDOT_BLOCK		= new GemBase();
 	public static final Block ONYX_BLOCK		= new GemBase();
 	public static final Block ROSE_QUARTZ_BLOCK	= new GemBase();
 	public static final Block RUBY_BLOCK		= new GemBase();
@@ -80,11 +81,13 @@ public class GardenBlocks {
 	public static final Block MAGENTA_CRYSTAL	= new CrystalBase(DyeColor.MAGENTA);
 	public static final Block PINK_CRYSTAL		= new CrystalBase(DyeColor.PINK);
 
-	public static final Block TENTACLE_BLOCK	= new TentacleBlock();
-	public static final Block CHOCOLATE_GRAVEL	= new ChocolateGravel();
-	public static final Block PEPPERMINT_BLOCK	= new PeppermintBlock();
-	public static final Block CANDY_CANE_BLOCK	= new CandyCaneBlock();
-	public static final Block CANDY_CANE_LOG	= new CandyCaneLog();
+	public static final Block TENTACLE_BLOCK			= new TentacleBlock();
+	public static final Block CHOCOLATE_GRAVEL			= new ChocolateGravel();
+	public static final Block PEPPERMINT_BLOCK			= new PeppermintBlock();
+	public static final Block CANDY_CANE_BLOCK			= new LogBase(BlockSoundGroup.STONE);
+	public static final Block CANDY_CANE_LOG			= new LogBase(BlockSoundGroup.STONE);
+	public static final Block STRIPPED_CANDY_CANE_BLOCK	= new LogBase(BlockSoundGroup.STONE);
+	public static final Block STRIPPED_CANDY_CANE_LOG	= new LogBase(BlockSoundGroup.STONE);
 
 	// registers the blocks so they now exist in the registry
 	public static void register() {
@@ -103,8 +106,8 @@ public class GardenBlocks {
 		newItem("raw_emerald_block",		RAW_EMERALD_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_DIAMOND_BLOCK);
 		newItem("raw_lapis_block",			RAW_LAPIS_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_EMERALD_BLOCK);
 		newItem("raw_moonstone_block",		RAW_MOONSTONE_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_LAPIS_BLOCK);
-		newItem("raw_olivine_block",		RAW_OLIVINE_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_MOONSTONE_BLOCK);
-		newItem("raw_onyx_block",			RAW_ONYX_BLOCK,			ItemGroups.NATURAL_BLOCKS, RAW_OLIVINE_BLOCK);
+		newItem("raw_peridot_block",		RAW_PERIDOT_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_MOONSTONE_BLOCK);
+		newItem("raw_onyx_block",			RAW_ONYX_BLOCK,			ItemGroups.NATURAL_BLOCKS, RAW_PERIDOT_BLOCK);
 		newItem("raw_quartz_block",			RAW_QUARTZ_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_ONYX_BLOCK);
 		newItem("raw_rose_quartz_block",	RAW_ROSE_QUARTZ_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_QUARTZ_BLOCK);
 		newItem("raw_ruby_block",			RAW_RUBY_BLOCK,			ItemGroups.NATURAL_BLOCKS, RAW_ROSE_QUARTZ_BLOCK);
@@ -117,8 +120,8 @@ public class GardenBlocks {
 		newItem("amethyst_block",		AMETHYST_BLOCK,		ItemGroups.BUILDING_BLOCKS, AMBER_BLOCK);
 		newItem("aquamarine_block",		AQUAMARINE_BLOCK,	ItemGroups.BUILDING_BLOCKS, AMETHYST_BLOCK);
 		newItem("moonstone_block",		MOONSTONE_BLOCK,	ItemGroups.BUILDING_BLOCKS, Items.LAPIS_BLOCK);
-		newItem("olivine_block",		OLIVINE_BLOCK,		ItemGroups.BUILDING_BLOCKS, MOONSTONE_BLOCK);
-		newItem("onyx_block",			ONYX_BLOCK,			ItemGroups.BUILDING_BLOCKS, OLIVINE_BLOCK);
+		newItem("peridot_block",		PERIDOT_BLOCK,		ItemGroups.BUILDING_BLOCKS, MOONSTONE_BLOCK);
+		newItem("onyx_block",			ONYX_BLOCK,			ItemGroups.BUILDING_BLOCKS, PERIDOT_BLOCK);
 		newItem("rose_quartz_block",	ROSE_QUARTZ_BLOCK,	ItemGroups.BUILDING_BLOCKS, ONYX_BLOCK);
 		newItem("ruby_block",			RUBY_BLOCK,			ItemGroups.BUILDING_BLOCKS, ROSE_QUARTZ_BLOCK);
 		newItem("smoky_quartz_block",	SMOKY_QUARTZ_BLOCK,	ItemGroups.BUILDING_BLOCKS, RUBY_BLOCK);
@@ -143,10 +146,12 @@ public class GardenBlocks {
 		newItem("magenta_crystal",		MAGENTA_CRYSTAL,	ItemGroups.COLORED_BLOCKS, PURPLE_CRYSTAL);
 		newItem("pink_crystal",			PINK_CRYSTAL,		ItemGroups.COLORED_BLOCKS, MAGENTA_CRYSTAL);
 
-		newItem("tentacle_block",	TENTACLE_BLOCK,		ItemGroups.NATURAL_BLOCKS, Items.BONE_BLOCK, true);
-		newItem("chocolate_gravel",	CHOCOLATE_GRAVEL,	ItemGroups.NATURAL_BLOCKS, Items.GRAVEL);
-		newItem("candy_cane_log",	CANDY_CANE_LOG,		ItemGroups.BUILDING_BLOCKS, Items.WARPED_BUTTON);
-		newItem("candy_cane_block",	CANDY_CANE_BLOCK,	ItemGroups.BUILDING_BLOCKS, CANDY_CANE_LOG);
-		newItem("peppermint_block",	PEPPERMINT_BLOCK,	ItemGroups.BUILDING_BLOCKS, CANDY_CANE_BLOCK);
+		newItem("tentacle_block",			TENTACLE_BLOCK,				ItemGroups.NATURAL_BLOCKS, Items.BONE_BLOCK, true);
+		newItem("chocolate_gravel",			CHOCOLATE_GRAVEL,			ItemGroups.NATURAL_BLOCKS, Items.GRAVEL);
+		newItem("candy_cane_log",			CANDY_CANE_LOG,				ItemGroups.BUILDING_BLOCKS, Items.WARPED_BUTTON);
+		newItem("candy_cane_block",			CANDY_CANE_BLOCK,			ItemGroups.BUILDING_BLOCKS, CANDY_CANE_LOG);
+		newItem("stripped_candy_cane_log",	STRIPPED_CANDY_CANE_LOG,	ItemGroups.BUILDING_BLOCKS, CANDY_CANE_BLOCK);
+		newItem("stripped_candy_cane_block",STRIPPED_CANDY_CANE_BLOCK,	ItemGroups.BUILDING_BLOCKS, STRIPPED_CANDY_CANE_LOG);
+		newItem("peppermint_block",			PEPPERMINT_BLOCK,			ItemGroups.BUILDING_BLOCKS, STRIPPED_CANDY_CANE_BLOCK);
 	}
 }

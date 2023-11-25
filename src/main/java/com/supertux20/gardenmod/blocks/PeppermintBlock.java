@@ -6,6 +6,6 @@ import net.minecraft.sound.BlockSoundGroup;
 
 public class PeppermintBlock extends Block {
 	public PeppermintBlock() {
-		super(QuiltBlockSettings.create().sounds(BlockSoundGroup.STONE).strength(2F, 2F));
+		super(QuiltBlockSettings.create().sounds(BlockSoundGroup.STONE).strength(2F));
 	}
 }

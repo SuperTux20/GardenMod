@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": {
+		"gardenmod:candy_cane_log": "gardenmod:stripped_candy_cane_log",
+		"gardenmod:candy_cane_block": "gardenmod:stripped_candy_cane_block"
+	}
+}

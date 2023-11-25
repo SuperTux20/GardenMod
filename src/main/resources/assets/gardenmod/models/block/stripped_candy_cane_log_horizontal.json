@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column_horizontal",
+  "textures": {
+    "end": "gardenmod:block/peppermint_block",
+    "side": "gardenmod:block/stripped_candy_cane"
+  }
+}
