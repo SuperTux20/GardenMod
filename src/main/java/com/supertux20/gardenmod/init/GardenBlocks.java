@@ -25,6 +25,9 @@ public class GardenBlocks {
 		Registry.register(Registries.BLOCK, new Identifier(GardenMod.ID, blockName), block);
 		GardenItems.newItem(blockName, new BlockItem(block, new QuiltItemSettings()).asItem(), group, sortItem, sortBefore);
 	}
+	public static void newBlock(String blockName, Block block) {
+		Registry.register(Registries.BLOCK, new Identifier(GardenMod.ID, blockName), block);
+	}
 
 	public static final Block MYTHRIL_ORE				= new MythrilOre();
 	public static final Block DEEPSLATE_MYTHRIL_ORE		= new DeepslateMythrilOre();

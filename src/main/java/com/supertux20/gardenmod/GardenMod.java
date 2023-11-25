@@ -23,6 +23,7 @@ public class GardenMod implements ModInitializer {
 	public void onInitialize(ModContainer mod) {
 		LOGGER.info("I left this line in so that I don't forget how the logger works. Hello World from {}, btw", mod.metadata().name());
 		GardenBlocks.register();
+		GardenFluids.register();
 		GardenItems.register();
 		GardenWorldgen.register();
 	}
