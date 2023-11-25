@@ -19,7 +19,7 @@ import net.minecraft.util.Identifier;
 public class GardenItems {
 	public static void newItem(String itemName, Item item, RegistryKey<ItemGroup> group, ItemConvertible sortItem, Object... sortBefore) {
 		Registry.register(Registries.ITEM, new Identifier(GardenMod.ID, itemName), item);
-		GardenMod.newItem(itemName, item, group, sortItem, sortBefore);
+		GardenMod.sortItemIntoCreativeTab(itemName, item, group, sortItem, sortBefore);
 	}
 
 	public static final Item AMETHYST_CHIMES	= new AmethystChimes();

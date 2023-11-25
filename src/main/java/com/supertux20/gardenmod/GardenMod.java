@@ -27,7 +27,7 @@ public class GardenMod implements ModInitializer {
 		GardenWorldgen.register();
 	}
 
-	public static final void newItem(String itemName, Item item, RegistryKey<ItemGroup> group, ItemConvertible sortItem, Object... sortBefore) {
+	public static final void sortItemIntoCreativeTab(String itemName, Item item, RegistryKey<ItemGroup> group, ItemConvertible sortItem, Object... sortBefore) {
 		if (sortBefore.length != 0) {
 			ItemGroupEvents.modifyEntriesEvent(group).register(entries -> {entries.addBefore(sortItem, item);});
 		} else {
