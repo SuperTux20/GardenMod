@@ -7,11 +7,11 @@
 	],
 	"key": {
 		"#": {
-			"item": "gardenmod:olivine"
+			"item": "gardenmod:peridot"
 		}
 	},
 	"result": {
-		"item": "gardenmod:olivine_block",
+		"item": "gardenmod:peridot_block",
 		"count": 1
 	}
 }

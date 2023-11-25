@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:smelting",
 	"ingredient": {
-		"item": "gardenmod:raw_olivine"
+		"item": "gardenmod:raw_peridot"
 	},
-	"result": "gardenmod:olivine",
+	"result": "gardenmod:peridot",
 	"experience": 1
 }

@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "gardenmod:item/olivine"
+		"layer0": "gardenmod:item/raw_peridot"
 	}
 }

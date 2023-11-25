@@ -3,11 +3,11 @@
 	"pattern": ["###", "###", "###"],
 	"key": {
 		"#": {
-			"item": "gardenmod:raw_olivine"
+			"item": "gardenmod:raw_peridot"
 		}
 	},
 	"result": {
-		"item": "gardenmod:raw_olivine_block",
+		"item": "gardenmod:raw_peridot_block",
 		"count": 1
 	}
 }
