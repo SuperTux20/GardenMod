@@ -99,29 +99,29 @@ public class GardenBlocks {
 		newBlock("raw_mythril_block",		RAW_MYTHRIL_BLOCK,			ItemGroups.NATURAL_BLOCKS, Items.RAW_GOLD_BLOCK);
 		newBlock("mythril_block",			MYTHRIL_BLOCK,				ItemGroups.BUILDING_BLOCKS, Items.LIGHT_WEIGHTED_PRESSURE_PLATE);
 		newBlock("orichalcum_ore",			ORICHALCUM_ORE,				ItemGroups.NATURAL_BLOCKS, DEEPSLATE_MYTHRIL_ORE);
-		newBlock("deepslate_orichalcum_ore",	DEEPSLATE_ORICHALCUM_ORE,	ItemGroups.NATURAL_BLOCKS, ORICHALCUM_ORE);
-		newBlock("raw_orichalcum_block",		RAW_ORICHALCUM_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_MYTHRIL_BLOCK);
-		newBlock("orichalcum_block",			ORICHALCUM_BLOCK,			ItemGroups.BUILDING_BLOCKS, MYTHRIL_BLOCK);
+		newBlock("deepslate_orichalcum_ore",DEEPSLATE_ORICHALCUM_ORE,	ItemGroups.NATURAL_BLOCKS, ORICHALCUM_ORE);
+		newBlock("raw_orichalcum_block",	RAW_ORICHALCUM_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_MYTHRIL_BLOCK);
+		newBlock("orichalcum_block",		ORICHALCUM_BLOCK,			ItemGroups.BUILDING_BLOCKS, MYTHRIL_BLOCK);
 		
 		newBlock("raw_amber_block",			RAW_AMBER_BLOCK,		ItemGroups.NATURAL_BLOCKS, Items.AMETHYST_BLOCK, true);
-		newBlock("raw_aquamarine_block",		RAW_AQUAMARINE_BLOCK,	ItemGroups.NATURAL_BLOCKS, Items.AMETHYST_BLOCK);
+		newBlock("raw_aquamarine_block",	RAW_AQUAMARINE_BLOCK,	ItemGroups.NATURAL_BLOCKS, Items.AMETHYST_BLOCK);
 		newBlock("raw_diamond_block",		RAW_DIAMOND_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_AQUAMARINE_BLOCK);
 		newBlock("raw_emerald_block",		RAW_EMERALD_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_DIAMOND_BLOCK);
 		newBlock("raw_lapis_block",			RAW_LAPIS_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_EMERALD_BLOCK);
 		newBlock("raw_moonstone_block",		RAW_MOONSTONE_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_LAPIS_BLOCK);
 		newBlock("raw_peridot_block",		RAW_PERIDOT_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_MOONSTONE_BLOCK);
 		newBlock("raw_onyx_block",			RAW_ONYX_BLOCK,			ItemGroups.NATURAL_BLOCKS, RAW_PERIDOT_BLOCK);
-		newBlock("raw_quartz_block",			RAW_QUARTZ_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_ONYX_BLOCK);
+		newBlock("raw_quartz_block",		RAW_QUARTZ_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_ONYX_BLOCK);
 		newBlock("raw_rose_quartz_block",	RAW_ROSE_QUARTZ_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_QUARTZ_BLOCK);
 		newBlock("raw_ruby_block",			RAW_RUBY_BLOCK,			ItemGroups.NATURAL_BLOCKS, RAW_ROSE_QUARTZ_BLOCK);
 		newBlock("raw_smoky_quartz_block",	RAW_SMOKY_QUARTZ_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_RUBY_BLOCK);
 		newBlock("raw_tiger_eye_block",		RAW_TIGER_EYE_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_SMOKY_QUARTZ_BLOCK);
 		newBlock("raw_topaz_block",			RAW_TOPAZ_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_TIGER_EYE_BLOCK);
-		newBlock("raw_tourmaline_block",		RAW_TOURMALINE_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_TOPAZ_BLOCK);
+		newBlock("raw_tourmaline_block",	RAW_TOURMALINE_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_TOPAZ_BLOCK);
 		
 		newBlock("amber_block",			AMBER_BLOCK,		ItemGroups.BUILDING_BLOCKS, Items.DIAMOND_BLOCK, true);
 		newBlock("amethyst_block",		AMETHYST_BLOCK,		ItemGroups.BUILDING_BLOCKS, AMBER_BLOCK);
-		newBlock("aquamarine_block",		AQUAMARINE_BLOCK,	ItemGroups.BUILDING_BLOCKS, AMETHYST_BLOCK);
+		newBlock("aquamarine_block",	AQUAMARINE_BLOCK,	ItemGroups.BUILDING_BLOCKS, AMETHYST_BLOCK);
 		newBlock("moonstone_block",		MOONSTONE_BLOCK,	ItemGroups.BUILDING_BLOCKS, Items.LAPIS_BLOCK);
 		newBlock("peridot_block",		PERIDOT_BLOCK,		ItemGroups.BUILDING_BLOCKS, MOONSTONE_BLOCK);
 		newBlock("onyx_block",			ONYX_BLOCK,			ItemGroups.BUILDING_BLOCKS, PERIDOT_BLOCK);
@@ -130,31 +130,31 @@ public class GardenBlocks {
 		newBlock("smoky_quartz_block",	SMOKY_QUARTZ_BLOCK,	ItemGroups.BUILDING_BLOCKS, RUBY_BLOCK);
 		newBlock("tiger_eye_block",		TIGER_EYE_BLOCK,	ItemGroups.BUILDING_BLOCKS, SMOKY_QUARTZ_BLOCK);
 		newBlock("topaz_block",			TOPAZ_BLOCK,		ItemGroups.BUILDING_BLOCKS, TIGER_EYE_BLOCK);
-		newBlock("tourmaline_block",		TOURMALINE_BLOCK,	ItemGroups.BUILDING_BLOCKS, TOPAZ_BLOCK);
+		newBlock("tourmaline_block",	TOURMALINE_BLOCK,	ItemGroups.BUILDING_BLOCKS, TOPAZ_BLOCK);
 
 		newBlock("white_crystal",		WHITE_CRYSTAL,		ItemGroups.COLORED_BLOCKS, Items.PINK_BANNER);
 		newBlock("light_gray_crystal",	LIGHT_GRAY_CRYSTAL,	ItemGroups.COLORED_BLOCKS, WHITE_CRYSTAL);
-		newBlock("gray_crystal",			GRAY_CRYSTAL,		ItemGroups.COLORED_BLOCKS, LIGHT_GRAY_CRYSTAL);
+		newBlock("gray_crystal",		GRAY_CRYSTAL,		ItemGroups.COLORED_BLOCKS, LIGHT_GRAY_CRYSTAL);
 		newBlock("black_crystal",		BLACK_CRYSTAL,		ItemGroups.COLORED_BLOCKS, GRAY_CRYSTAL);
 		newBlock("brown_crystal",		BROWN_CRYSTAL,		ItemGroups.COLORED_BLOCKS, BLACK_CRYSTAL);
 		newBlock("red_crystal",			RED_CRYSTAL,		ItemGroups.COLORED_BLOCKS, BROWN_CRYSTAL);
 		newBlock("orange_crystal",		ORANGE_CRYSTAL,		ItemGroups.COLORED_BLOCKS, RED_CRYSTAL);
 		newBlock("yellow_crystal",		YELLOW_CRYSTAL,		ItemGroups.COLORED_BLOCKS, ORANGE_CRYSTAL);
-		newBlock("lime_crystal",			LIME_CRYSTAL,		ItemGroups.COLORED_BLOCKS, YELLOW_CRYSTAL);
+		newBlock("lime_crystal",		LIME_CRYSTAL,		ItemGroups.COLORED_BLOCKS, YELLOW_CRYSTAL);
 		newBlock("green_crystal",		GREEN_CRYSTAL,		ItemGroups.COLORED_BLOCKS, LIME_CRYSTAL);
-		newBlock("cyan_crystal",			CYAN_CRYSTAL,		ItemGroups.COLORED_BLOCKS, GREEN_CRYSTAL);
+		newBlock("cyan_crystal",		CYAN_CRYSTAL,		ItemGroups.COLORED_BLOCKS, GREEN_CRYSTAL);
 		newBlock("light_blue_crystal",	LIGHT_BLUE_CRYSTAL,	ItemGroups.COLORED_BLOCKS, CYAN_CRYSTAL);
-		newBlock("blue_crystal",			BLUE_CRYSTAL,		ItemGroups.COLORED_BLOCKS, LIGHT_BLUE_CRYSTAL);
+		newBlock("blue_crystal",		BLUE_CRYSTAL,		ItemGroups.COLORED_BLOCKS, LIGHT_BLUE_CRYSTAL);
 		newBlock("purple_crystal",		PURPLE_CRYSTAL,		ItemGroups.COLORED_BLOCKS, BLUE_CRYSTAL);
 		newBlock("magenta_crystal",		MAGENTA_CRYSTAL,	ItemGroups.COLORED_BLOCKS, PURPLE_CRYSTAL);
-		newBlock("pink_crystal",			PINK_CRYSTAL,		ItemGroups.COLORED_BLOCKS, MAGENTA_CRYSTAL);
+		newBlock("pink_crystal",		PINK_CRYSTAL,		ItemGroups.COLORED_BLOCKS, MAGENTA_CRYSTAL);
 
-		newBlock("tentacle_block",			TENTACLE_BLOCK,				ItemGroups.NATURAL_BLOCKS, Items.BONE_BLOCK, true);
+		newBlock("tentacle_block",				TENTACLE_BLOCK,				ItemGroups.NATURAL_BLOCKS, Items.BONE_BLOCK, true);
 		newBlock("chocolate_gravel",			CHOCOLATE_GRAVEL,			ItemGroups.NATURAL_BLOCKS, Items.GRAVEL);
-		newBlock("candy_cane_log",			CANDY_CANE_LOG,				ItemGroups.BUILDING_BLOCKS, Items.WARPED_BUTTON);
+		newBlock("candy_cane_log",				CANDY_CANE_LOG,				ItemGroups.BUILDING_BLOCKS, Items.WARPED_BUTTON);
 		newBlock("candy_cane_block",			CANDY_CANE_BLOCK,			ItemGroups.BUILDING_BLOCKS, CANDY_CANE_LOG);
-		newBlock("stripped_candy_cane_log",	STRIPPED_CANDY_CANE_LOG,	ItemGroups.BUILDING_BLOCKS, CANDY_CANE_BLOCK);
-		newBlock("stripped_candy_cane_block",STRIPPED_CANDY_CANE_BLOCK,	ItemGroups.BUILDING_BLOCKS, STRIPPED_CANDY_CANE_LOG);
+		newBlock("stripped_candy_cane_log",		STRIPPED_CANDY_CANE_LOG,	ItemGroups.BUILDING_BLOCKS, CANDY_CANE_BLOCK);
+		newBlock("stripped_candy_cane_block",	STRIPPED_CANDY_CANE_BLOCK,	ItemGroups.BUILDING_BLOCKS, STRIPPED_CANDY_CANE_LOG);
 		newBlock("peppermint_block",			PEPPERMINT_BLOCK,			ItemGroups.BUILDING_BLOCKS, STRIPPED_CANDY_CANE_BLOCK);
 	}
 }
