@@ -38,7 +38,12 @@ public abstract class HoneyFluid extends FluidBase {
 
 	@Override
 	protected int getLevelDecreasePerBlock(WorldView worldView) {
-		return 2;
+		return 3;
+	}
+
+	@Override
+	public int getTickRate(WorldView worldView) {
+		return 30;
 	}
 
 	public static class Flowing extends HoneyFluid {
