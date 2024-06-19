@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [{
-		"item": "gardenmod:raw_lapis_block"
+		"item": "minecraft:lapis_block"
 	}],
 	"result": {
 		"item": "minecraft:lapis_lazuli",

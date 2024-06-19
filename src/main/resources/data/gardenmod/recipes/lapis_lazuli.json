@@ -1,10 +1,10 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [{
-		"item": "minecraft:lapis_block"
+		"item": "gardenmod:raw_lapis_block"
 	}],
 	"result": {
-		"item": "gardenmod:lapis_lazuli",
+		"item": "gardenmod:raw_lapis_lazuli",
 		"count": 9
 	}
 }

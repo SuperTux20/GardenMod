@@ -4,8 +4,7 @@
 		{
 			"id": "#gardenmod:gems",
 			"required": true
-	    },
-		"minecraft:lapis_lazuli",
+		},
 		"minecraft:quartz"
 	]
 }

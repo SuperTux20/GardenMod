@@ -3,7 +3,7 @@
 	"pattern": ["###", "###", "###"],
 	"key": {
 		"#": {
-			"item": "minecraft:lapis_lazuli"
+			"item": "gardenmod:raw_lapis_lazuli"
 		}
 	},
 	"result": {

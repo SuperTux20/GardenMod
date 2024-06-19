@@ -1,7 +1,7 @@
 {
 	"advancements.adventure.tentacles.title": "I've seen enough anime...",
 	"advancements.adventure.tentacles.description": "Find a tentacle block.",
-	
+
 	"block.gardenmod.peppermint_block": "Peppermint Block",
 	"block.gardenmod.candy_cane_block": "Candy Cane Block",
 	"block.gardenmod.candy_cane_log": "Candy Cane Log",
@@ -71,7 +71,7 @@
 	"item.gardenmod.amethyst_chimes": "Amethyst Chimes",
 	"item.gardenmod.stone_brick": "Stone Brick",
 	"item.gardenmod.honey_bucket": "Honey Bucket",
-	
+
 	"item.gardenmod.cinnamon_roll": "Cinnamon Roll",
 	"item.gardenmod.roasted_flesh": "Roasted Flesh",
 
@@ -88,6 +88,7 @@
 	"item.gardenmod.raw_aquamarine": "Raw Aquamarine",
 	"item.gardenmod.raw_diamond": "Raw Diamond",
 	"item.gardenmod.raw_emerald": "Raw Emerald",
+	"item.gardenmod.raw_lapis_lazuli": "Raw Lapis Lazuli",
 	"item.gardenmod.raw_moonstone": "Raw Moonstone",
 	"item.gardenmod.raw_peridot": "Raw Peridot",
 	"item.gardenmod.raw_onyx": "Raw Onyx",
@@ -101,7 +102,6 @@
 	"item.gardenmod.amber": "Amber",
 	"item.gardenmod.amethyst": "Amethyst",
 	"item.gardenmod.aquamarine": "Aquamarine",
-	"item.gardenmod.lapis_lazuli": "Lapis Lazuli",
 	"item.gardenmod.moonstone": "Moonstone",
 	"item.gardenmod.peridot": "Peridot",
 	"item.gardenmod.onyx": "Onyx",

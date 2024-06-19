@@ -38,7 +38,6 @@ public class GardenItems {
 	public static final Item AMBER			= new Item(new QuiltItemSettings());
 	public static final Item AMETHYST		= new Item(new QuiltItemSettings());
 	public static final Item AQUAMARINE		= new Item(new QuiltItemSettings());
-	public static final Item LAPIS_LAZULI	= new Item(new QuiltItemSettings());
 	public static final Item MOONSTONE		= new Item(new QuiltItemSettings());
 	public static final Item PERIDOT		= new Item(new QuiltItemSettings());
 	public static final Item ONYX			= new Item(new QuiltItemSettings());
@@ -54,6 +53,7 @@ public class GardenItems {
 	public static final Item RAW_AQUAMARINE		= new Item(new QuiltItemSettings());
 	public static final Item RAW_DIAMOND		= new Item(new QuiltItemSettings());
 	public static final Item RAW_EMERALD		= new Item(new QuiltItemSettings());
+	public static final Item RAW_LAPIS_LAZULI	= new Item(new QuiltItemSettings());
 	public static final Item RAW_MOONSTONE		= new Item(new QuiltItemSettings());
 	public static final Item RAW_PERIDOT		= new Item(new QuiltItemSettings());
 	public static final Item RAW_ONYX			= new Item(new QuiltItemSettings());
@@ -82,8 +82,7 @@ public class GardenItems {
 		newItem("amber",		AMBER,			ItemGroups.INGREDIENTS, Items.DIAMOND, true);
 		newItem("amethyst",		AMETHYST,		ItemGroups.INGREDIENTS, AMBER);
 		newItem("aquamarine",	AQUAMARINE,		ItemGroups.INGREDIENTS, AMETHYST);
-		newItem("lapis_lazuli",	LAPIS_LAZULI,	ItemGroups.INGREDIENTS, Items.EMERALD);
-		newItem("moonstone",	MOONSTONE,		ItemGroups.INGREDIENTS, LAPIS_LAZULI);
+		newItem("moonstone",	MOONSTONE,		ItemGroups.INGREDIENTS, Items.LAPIS_LAZULI);
 		newItem("peridot",		PERIDOT,		ItemGroups.INGREDIENTS, MOONSTONE);
 		newItem("onyx",			ONYX,			ItemGroups.INGREDIENTS, PERIDOT);
 		newItem("quartz",		QUARTZ,			ItemGroups.INGREDIENTS, ONYX);
@@ -98,7 +97,8 @@ public class GardenItems {
 		newItem("raw_aquamarine",	RAW_AQUAMARINE,		ItemGroups.INGREDIENTS, Items.AMETHYST_SHARD);
 		newItem("raw_diamond",		RAW_DIAMOND,		ItemGroups.INGREDIENTS, RAW_AQUAMARINE);
 		newItem("raw_emerald",		RAW_EMERALD,		ItemGroups.INGREDIENTS, RAW_DIAMOND);
-		newItem("raw_moonstone",	RAW_MOONSTONE,		ItemGroups.INGREDIENTS, Items.LAPIS_LAZULI);
+		newItem("raw_lapis_lazuli",	RAW_LAPIS_LAZULI,	ItemGroups.INGREDIENTS, RAW_EMERALD);
+		newItem("raw_moonstone",	RAW_MOONSTONE,		ItemGroups.INGREDIENTS, RAW_LAPIS_LAZULI);
 		newItem("raw_peridot",		RAW_PERIDOT,		ItemGroups.INGREDIENTS, RAW_MOONSTONE);
 		newItem("raw_onyx",			RAW_ONYX,			ItemGroups.INGREDIENTS, RAW_PERIDOT);
 		newItem("raw_rose_quartz",	RAW_ROSE_QUARTZ,	ItemGroups.INGREDIENTS, Items.QUARTZ);
