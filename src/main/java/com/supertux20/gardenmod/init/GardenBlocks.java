@@ -125,7 +125,7 @@ public class GardenBlocks {
 		newBlock("moonstone_block",		MOONSTONE_BLOCK,	ItemGroups.BUILDING_BLOCKS, Items.LAPIS_BLOCK);
 		newBlock("peridot_block",		PERIDOT_BLOCK,		ItemGroups.BUILDING_BLOCKS, MOONSTONE_BLOCK);
 		newBlock("onyx_block",			ONYX_BLOCK,			ItemGroups.BUILDING_BLOCKS, PERIDOT_BLOCK);
-		newBlock("rose_quartz_block",	ROSE_QUARTZ_BLOCK,	ItemGroups.BUILDING_BLOCKS, ONYX_BLOCK);
+		newBlock("rose_quartz_block",	ROSE_QUARTZ_BLOCK,	ItemGroups.BUILDING_BLOCKS, Items.QUARTZ_BLOCK);
 		newBlock("ruby_block",			RUBY_BLOCK,			ItemGroups.BUILDING_BLOCKS, ROSE_QUARTZ_BLOCK);
 		newBlock("smoky_quartz_block",	SMOKY_QUARTZ_BLOCK,	ItemGroups.BUILDING_BLOCKS, RUBY_BLOCK);
 		newBlock("tiger_eye_block",		TIGER_EYE_BLOCK,	ItemGroups.BUILDING_BLOCKS, SMOKY_QUARTZ_BLOCK);
