@@ -109,9 +109,9 @@ public class GardenBlocks {
 		newBlock("raw_emerald_block",		RAW_EMERALD_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_DIAMOND_BLOCK);
 		newBlock("raw_lapis_block",			RAW_LAPIS_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_EMERALD_BLOCK);
 		newBlock("raw_moonstone_block",		RAW_MOONSTONE_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_LAPIS_BLOCK);
-		newBlock("raw_peridot_block",		RAW_PERIDOT_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_MOONSTONE_BLOCK);
-		newBlock("raw_onyx_block",			RAW_ONYX_BLOCK,			ItemGroups.NATURAL_BLOCKS, RAW_PERIDOT_BLOCK);
-		newBlock("raw_quartz_block",		RAW_QUARTZ_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_ONYX_BLOCK);
+		newBlock("raw_onyx_block",			RAW_ONYX_BLOCK,			ItemGroups.NATURAL_BLOCKS, RAW_MOONSTONE_BLOCK);
+		newBlock("raw_peridot_block",		RAW_PERIDOT_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_ONYX_BLOCK);
+		newBlock("raw_quartz_block",		RAW_QUARTZ_BLOCK,		ItemGroups.NATURAL_BLOCKS, RAW_PERIDOT_BLOCK);
 		newBlock("raw_rose_quartz_block",	RAW_ROSE_QUARTZ_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_QUARTZ_BLOCK);
 		newBlock("raw_ruby_block",			RAW_RUBY_BLOCK,			ItemGroups.NATURAL_BLOCKS, RAW_ROSE_QUARTZ_BLOCK);
 		newBlock("raw_smoky_quartz_block",	RAW_SMOKY_QUARTZ_BLOCK,	ItemGroups.NATURAL_BLOCKS, RAW_RUBY_BLOCK);
@@ -123,8 +123,8 @@ public class GardenBlocks {
 		newBlock("amethyst_block",		AMETHYST_BLOCK,		ItemGroups.BUILDING_BLOCKS, AMBER_BLOCK);
 		newBlock("aquamarine_block",	AQUAMARINE_BLOCK,	ItemGroups.BUILDING_BLOCKS, AMETHYST_BLOCK);
 		newBlock("moonstone_block",		MOONSTONE_BLOCK,	ItemGroups.BUILDING_BLOCKS, Items.LAPIS_BLOCK);
-		newBlock("peridot_block",		PERIDOT_BLOCK,		ItemGroups.BUILDING_BLOCKS, MOONSTONE_BLOCK);
-		newBlock("onyx_block",			ONYX_BLOCK,			ItemGroups.BUILDING_BLOCKS, PERIDOT_BLOCK);
+		newBlock("onyx_block",			ONYX_BLOCK,			ItemGroups.BUILDING_BLOCKS, MOONSTONE_BLOCK);
+		newBlock("peridot_block",		PERIDOT_BLOCK,		ItemGroups.BUILDING_BLOCKS, ONYX_BLOCK);
 		newBlock("rose_quartz_block",	ROSE_QUARTZ_BLOCK,	ItemGroups.BUILDING_BLOCKS, Items.QUARTZ_BLOCK);
 		newBlock("ruby_block",			RUBY_BLOCK,			ItemGroups.BUILDING_BLOCKS, ROSE_QUARTZ_BLOCK);
 		newBlock("smoky_quartz_block",	SMOKY_QUARTZ_BLOCK,	ItemGroups.BUILDING_BLOCKS, RUBY_BLOCK);
